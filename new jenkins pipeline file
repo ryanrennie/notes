@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+
+    environment {
+        REMOTE_USER = 'ubuntu'           // Replace with your remote server SSH username
+        REMOTE_HOST = '192.168.1.50'     // Replace with your remote server IP address
+        REMOTE_DIR  = '/opt/ims'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'github-creds',
+                    url: 'https://github.com/ryanrennie/ims.git'
+            }
+        }
+
+        stage('Build & Test Backend (imsapi)') {
+            steps {
+                dir('imsapi') {
+                    // Grant execution rights to the Maven wrapper script
+                    sh 'chmod +x ./mvnw'
+                    sh './mvnw clean package -DskipTests'
+                }
+            }
+        }
+
+        stage('Build & Test Frontend (ui)') {
+            steps {
+                dir('ui') {
+                    sh 'npm install'
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Deploy to Remote Server') {
+            steps {
+                sh """
+                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "mkdir -p ${REMOTE_DIR}"
+                    rsync -avz --delete \
+                        --exclude '.git' \
+                        --exclude 'ui/node_modules' \
+                        --exclude '.env' \
+                        ./ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_DIR}/
+                """
+
+                sh """
+                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "
+                        cd ${REMOTE_DIR} &&
+                        docker compose up -d --build --remove-orphans &&
+                        docker image prune -f
+                    "
+                """
+            }
+        }
+    }
+}
