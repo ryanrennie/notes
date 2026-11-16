@@ -31,7 +31,8 @@ pipeline {
         stage('Build & Test Backend (imsapi)') {
             steps {
                 dir('imsapi') {
-                    // Assuming Maven wrapper is present; use 'mvn clean package' if using global Maven
+                    // Grant execution rights to the Maven wrapper script
+                    sh 'chmod +x ./mvnw'
                     sh './mvnw clean package'
                 }
             }
@@ -40,11 +41,8 @@ pipeline {
         stage('Build & Test Frontend (ui)') {
             steps {
                 dir('ui') {
-                    // Install dependencies and build/test the React application
                     sh 'npm install'
                     sh 'npm run build'
-                    // Uncomment the line below if you have automated tests configured (e.g., Jest/React Testing Library)
-                    // sh 'npm test -- --watchAll=false'
                 }
             }
         }
