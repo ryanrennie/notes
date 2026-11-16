@@ -1,172 +1,927 @@
-Progress (1): 2.8/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 2.9/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0/3.0 MB
-Progress (1): 3.0 MB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.6/surefire-shared-utils-3.5.6.jar (3.0 MB at 5.2 MB/s)
-Progress (1): 3.2/168 kB
-Progress (1): 20/168 kB 
-Progress (1): 33/168 kB
-Progress (1): 49/168 kB
-Progress (1): 66/168 kB
-Progress (1): 82/168 kB
-Progress (1): 98/168 kB
-Progress (1): 115/168 kB
-Progress (1): 131/168 kB
-Progress (1): 147/168 kB
-Progress (1): 164/168 kB
-Progress (1): 168 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar (168 kB at 277 kB/s)
-Progress (1): 8.2/58 kB
-Progress (1): 16/58 kB 
-Progress (1): 33/58 kB
-Progress (1): 49/58 kB
-Progress (1): 57/58 kB
-Progress (1): 58 kB   
+Progress (1): 49/86 kB
+Progress (2): 49/86 kB | 3.2/86 kB
+Progress (2): 49/86 kB | 20/86 kB 
+Progress (2): 49/86 kB | 33/86 kB
+Progress (2): 49/86 kB | 49/86 kB
+Progress (2): 49/86 kB | 66/86 kB
+Progress (3): 49/86 kB | 66/86 kB | 16/16 kB
+Progress (3): 49/86 kB | 82/86 kB | 16/16 kB
+Progress (3): 49/86 kB | 86 kB | 16/16 kB   
+Progress (3): 49/86 kB | 86 kB | 16 kB   
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0/doxia-skin-model-2.0.0.jar (16 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.jar
+Progress (2): 66/86 kB | 86 kB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar (86 kB at 173 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.jar
+Progress (1): 74/86 kB
+Progress (1): 82/86 kB
+Progress (2): 82/86 kB | 7.7/44 kB
+Progress (2): 82/86 kB | 16/44 kB 
+Progress (2): 82/86 kB | 25/44 kB
+Progress (2): 82/86 kB | 41/44 kB
+Progress (2): 82/86 kB | 44 kB   
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0/doxia-site-renderer-2.0.0.jar (44 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar
+Progress (1): 86 kB
                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (58 kB at 46 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0/doxia-site-model-2.0.0.jar (86 kB at 148 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0/doxia-module-xhtml5-2.0.0.jar (17 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M4/org.eclipse.sisu.inject-0.9.0.M4.jar
+Progress (1): 5.7 kB
+Progress (2): 5.7 kB | 7.7/54 kB
+Progress (2): 5.7 kB | 16/54 kB 
+Progress (2): 5.7 kB | 28/54 kB
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.jar (5.7 kB at 8.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar
+Progress (1): 44/54 kB
+Progress (1): 54 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.jar (54 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar
+Progress (1): 7.7/53 kB
+Progress (1): 8.2/53 kB
+Progress (1): 25/53 kB 
+Progress (1): 41/53 kB
+Progress (1): 53 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar (53 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar
+Progress (1): 7.7/375 kB
+Progress (1): 16/375 kB 
+Progress (1): 25/375 kB
+Progress (1): 41/375 kB
+Progress (1): 57/375 kB
+Progress (1): 74/375 kB
+Progress (2): 74/375 kB | 16/35 kB
+Progress (2): 90/375 kB | 16/35 kB
+Progress (2): 106/375 kB | 16/35 kB
+Progress (2): 106/375 kB | 33/35 kB
+Progress (2): 123/375 kB | 33/35 kB
+Progress (2): 123/375 kB | 35 kB   
+Progress (2): 134/375 kB | 35 kB
+Progress (2): 151/375 kB | 35 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar (35 kB at 45 kB/s)
+Progress (1): 167/375 kB
+                        
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar
+Progress (1): 183/375 kB
+Progress (2): 183/375 kB | 7.7/27 kB
+Progress (2): 183/375 kB | 11/27 kB 
+Progress (2): 197/375 kB | 11/27 kB
+Progress (2): 197/375 kB | 27 kB   
+Progress (2): 213/375 kB | 27 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar (27 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar
+Progress (1): 229/375 kB
+Progress (1): 246/375 kB
+Progress (1): 262/375 kB
+Progress (1): 279/375 kB
+Progress (1): 295/375 kB
+Progress (1): 311/375 kB
+Progress (1): 328/375 kB
+Progress (1): 344/375 kB
+Progress (1): 360/375 kB
+Progress (1): 375 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar (375 kB at 459 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar
+Progress (1): 7.7/169 kB
+Progress (1): 11/169 kB 
+Progress (1): 28/169 kB
+Progress (1): 33/169 kB
+Progress (1): 49/169 kB
+Progress (1): 66/169 kB
+Progress (1): 82/169 kB
+Progress (1): 98/169 kB
+Progress (1): 115/169 kB
+Progress (1): 131/169 kB
+Progress (1): 147/169 kB
+Progress (1): 164/169 kB
+Progress (1): 169 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar (169 kB at 164 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar
+Progress (1): 8.2/227 kB
+Progress (1): 16/227 kB 
+Progress (1): 33/227 kB
+Progress (1): 49/227 kB
+Progress (1): 66/227 kB
+Progress (1): 82/227 kB
+Progress (1): 90/227 kB
+Progress (1): 106/227 kB
+Progress (1): 123/227 kB
+Progress (1): 127/227 kB
+Progress (1): 143/227 kB
+Progress (1): 159/227 kB
+Progress (1): 164/227 kB
+Progress (1): 180/227 kB
+Progress (1): 197/227 kB
+Progress (1): 205/227 kB
+Progress (1): 221/227 kB
+Progress (1): 227 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar (227 kB at 215 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.jar
+Progress (1): 3.2/585 kB
+Progress (1): 11/585 kB 
+Progress (1): 28/585 kB
+Progress (1): 44/585 kB
+Progress (1): 49/585 kB
+Progress (1): 66/585 kB
+Progress (1): 82/585 kB
+Progress (1): 98/585 kB
+Progress (1): 115/585 kB
+Progress (1): 131/585 kB
+Progress (1): 147/585 kB
+Progress (1): 164/585 kB
+Progress (1): 180/585 kB
+Progress (1): 197/585 kB
+Progress (1): 213/585 kB
+Progress (1): 229/585 kB
+Progress (1): 246/585 kB
+Progress (1): 262/585 kB
+Progress (1): 279/585 kB
+Progress (2): 279/585 kB | 16/305 kB
+Progress (2): 295/585 kB | 16/305 kB
+Progress (2): 311/585 kB | 16/305 kB
+Progress (2): 328/585 kB | 16/305 kB
+Progress (2): 344/585 kB | 16/305 kB
+Progress (2): 360/585 kB | 16/305 kB
+Progress (2): 377/585 kB | 16/305 kB
+Progress (2): 393/585 kB | 16/305 kB
+Progress (2): 410/585 kB | 16/305 kB
+Progress (2): 410/585 kB | 33/305 kB
+Progress (2): 426/585 kB | 33/305 kB
+Progress (2): 442/585 kB | 33/305 kB
+Progress (2): 459/585 kB | 33/305 kB
+Progress (2): 475/585 kB | 33/305 kB
+Progress (2): 492/585 kB | 33/305 kB
+Progress (2): 508/585 kB | 33/305 kB
+Progress (2): 524/585 kB | 33/305 kB
+Progress (2): 541/585 kB | 33/305 kB
+Progress (2): 557/585 kB | 33/305 kB
+Progress (2): 573/585 kB | 33/305 kB
+Progress (2): 573/585 kB | 49/305 kB
+Progress (3): 573/585 kB | 49/305 kB | 0/7.4 MB
+Progress (3): 585 kB | 49/305 kB | 0/7.4 MB    
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar (585 kB at 517 kB/s)
+Progress (2): 49/305 kB | 0/7.4 MB
+Progress (2): 49/305 kB | 0/7.4 MB
+                                  
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.0/maven-dependency-analyzer-1.17.0.jar
+Progress (2): 49/305 kB | 0/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.1/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.2/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.3/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.4/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.5/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.6/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.7/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.8/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 0.9/7.4 MB
+Progress (2): 49/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.0/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.1/7.4 MB
+Progress (2): 66/305 kB | 1.2/7.4 MB
+Progress (2): 66/305 kB | 1.2/7.4 MB
+Progress (2): 66/305 kB | 1.2/7.4 MB
+Progress (2): 66/305 kB | 1.2/7.4 MB
+Progress (2): 66/305 kB | 1.2/7.4 MB
+Progress (2): 82/305 kB | 1.2/7.4 MB
+Progress (2): 82/305 kB | 1.2/7.4 MB
+Progress (2): 82/305 kB | 1.3/7.4 MB
+Progress (2): 98/305 kB | 1.3/7.4 MB
+Progress (2): 98/305 kB | 1.3/7.4 MB
+Progress (2): 98/305 kB | 1.3/7.4 MB
+Progress (2): 98/305 kB | 1.3/7.4 MB
+Progress (2): 115/305 kB | 1.3/7.4 MB
+Progress (2): 115/305 kB | 1.3/7.4 MB
+Progress (3): 115/305 kB | 1.3/7.4 MB | 7.7/10 kB
+Progress (3): 115/305 kB | 1.3/7.4 MB | 10 kB    
+Progress (3): 115/305 kB | 1.3/7.4 MB | 10 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.jar (10 kB at 7.9 kB/s)
+Progress (2): 115/305 kB | 1.4/7.4 MB
+Progress (2): 115/305 kB | 1.4/7.4 MB
+                                     
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.jar
+Progress (2): 115/305 kB | 1.4/7.4 MB
+Progress (2): 115/305 kB | 1.4/7.4 MB
+Progress (2): 115/305 kB | 1.4/7.4 MB
+Progress (2): 115/305 kB | 1.4/7.4 MB
+Progress (2): 131/305 kB | 1.4/7.4 MB
+Progress (2): 131/305 kB | 1.4/7.4 MB
+Progress (2): 131/305 kB | 1.5/7.4 MB
+Progress (2): 131/305 kB | 1.5/7.4 MB
+Progress (2): 131/305 kB | 1.5/7.4 MB
+Progress (2): 131/305 kB | 1.5/7.4 MB
+Progress (2): 131/305 kB | 1.5/7.4 MB
+Progress (2): 147/305 kB | 1.5/7.4 MB
+Progress (2): 147/305 kB | 1.5/7.4 MB
+Progress (2): 147/305 kB | 1.6/7.4 MB
+Progress (2): 147/305 kB | 1.6/7.4 MB
+Progress (2): 147/305 kB | 1.6/7.4 MB
+Progress (2): 147/305 kB | 1.6/7.4 MB
+Progress (2): 147/305 kB | 1.6/7.4 MB
+Progress (2): 164/305 kB | 1.6/7.4 MB
+Progress (2): 164/305 kB | 1.6/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 164/305 kB | 1.7/7.4 MB
+Progress (2): 180/305 kB | 1.7/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.8/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 1.9/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.0/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.1/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.2/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.3/7.4 MB
+Progress (2): 180/305 kB | 2.4/7.4 MB
+Progress (2): 180/305 kB | 2.4/7.4 MB
+Progress (2): 180/305 kB | 2.4/7.4 MB
+Progress (2): 180/305 kB | 2.4/7.4 MB
+Progress (2): 180/305 kB | 2.4/7.4 MB
+Progress (2): 197/305 kB | 2.4/7.4 MB
+Progress (2): 197/305 kB | 2.4/7.4 MB
+Progress (2): 197/305 kB | 2.5/7.4 MB
+Progress (2): 197/305 kB | 2.5/7.4 MB
+Progress (2): 197/305 kB | 2.5/7.4 MB
+Progress (2): 197/305 kB | 2.5/7.4 MB
+Progress (2): 197/305 kB | 2.5/7.4 MB
+Progress (2): 213/305 kB | 2.5/7.4 MB
+Progress (2): 213/305 kB | 2.5/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.6/7.4 MB
+Progress (2): 213/305 kB | 2.7/7.4 MB
+Progress (2): 213/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.7/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.8/7.4 MB
+Progress (2): 229/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 2.9/7.4 MB
+Progress (2): 246/305 kB | 3.0/7.4 MB
+Progress (2): 246/305 kB | 3.0/7.4 MB
+Progress (2): 246/305 kB | 3.0/7.4 MB
+Progress (2): 246/305 kB | 3.0/7.4 MB
+Progress (2): 246/305 kB | 3.0/7.4 MB
+Progress (2): 262/305 kB | 3.0/7.4 MB
+Progress (2): 262/305 kB | 3.0/7.4 MB
+Progress (3): 262/305 kB | 3.0/7.4 MB | 7.7/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 7.7/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 8.2/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 25/54 kB 
+Progress (3): 262/305 kB | 3.1/7.4 MB | 25/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.1/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.2/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.3/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.4/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 262/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 279/305 kB | 3.5/7.4 MB | 41/54 kB
+Progress (3): 279/305 kB | 3.6/7.4 MB | 41/54 kB
+Progress (3): 295/305 kB | 3.6/7.4 MB | 41/54 kB
+Progress (3): 295/305 kB | 3.6/7.4 MB | 41/54 kB
+Progress (3): 295/305 kB | 3.6/7.4 MB | 41/54 kB
+Progress (3): 295/305 kB | 3.6/7.4 MB | 54 kB   
+Progress (3): 305 kB | 3.6/7.4 MB | 54 kB    
+Progress (3): 305 kB | 3.6/7.4 MB | 54 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M4/org.eclipse.sisu.inject-0.9.0.M4.jar (305 kB at 202 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.0/maven-dependency-analyzer-1.17.0.jar (54 kB at 36 kB/s)
+Progress (1): 3.6/7.4 MB
+                        
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar
+Progress (1): 3.6/7.4 MB
+Progress (1): 3.7/7.4 MB
+Progress (1): 3.7/7.4 MB
+Progress (1): 3.7/7.4 MB
+Progress (1): 3.7/7.4 MB
+Progress (2): 3.7/7.4 MB | 7.7/43 kB
+Progress (2): 3.7/7.4 MB | 8.2/43 kB
+Progress (2): 3.7/7.4 MB | 8.2/43 kB
+Progress (2): 3.7/7.4 MB | 8.2/43 kB
+Progress (2): 3.7/7.4 MB | 16/43 kB 
+Progress (2): 3.7/7.4 MB | 16/43 kB
+Progress (2): 3.8/7.4 MB | 16/43 kB
+Progress (2): 3.8/7.4 MB | 33/43 kB
+Progress (2): 3.8/7.4 MB | 33/43 kB
+Progress (2): 3.8/7.4 MB | 33/43 kB
+Progress (2): 3.8/7.4 MB | 43 kB   
+Progress (2): 3.8/7.4 MB | 43 kB
+Progress (2): 3.8/7.4 MB | 43 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.3.0/maven-dependency-tree-3.3.0.jar (43 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.jar
+Progress (1): 3.8/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 3.9/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.0/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.1/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.2/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.3/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.4/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.5/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.6/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.7/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.8/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 4.9/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.0/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.1/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.2/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.3/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.4/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.5/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.6/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.7/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.8/7.4 MB
+Progress (1): 5.9/7.4 MB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 5.9/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.0/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.1/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.2/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.3/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.4/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (2): 6.5/7.4 MB | 8.2/80 kB
+Progress (3): 6.5/7.4 MB | 8.2/80 kB | 4.2 kB
+Progress (3): 6.6/7.4 MB | 8.2/80 kB | 4.2 kB
+Progress (3): 6.6/7.4 MB | 8.2/80 kB | 4.2 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar (4.2 kB at 2.4 kB/s)
+Progress (2): 6.6/7.4 MB | 8.2/80 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.jar
+Progress (2): 6.6/7.4 MB | 8.2/80 kB
+Progress (2): 6.6/7.4 MB | 16/80 kB 
+Progress (2): 6.6/7.4 MB | 16/80 kB
+Progress (2): 6.6/7.4 MB | 33/80 kB
+Progress (2): 6.6/7.4 MB | 33/80 kB
+Progress (2): 6.7/7.4 MB | 33/80 kB
+Progress (2): 6.7/7.4 MB | 33/80 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 7.7/197 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 7.7/197 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 7.7/197 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 11/197 kB 
+Progress (3): 6.7/7.4 MB | 33/80 kB | 28/197 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 28/197 kB
+Progress (3): 6.7/7.4 MB | 33/80 kB | 28/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 28/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 44/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 44/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 44/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 61/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 61/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 61/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 77/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 93/197 kB
+Progress (3): 6.8/7.4 MB | 33/80 kB | 93/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 93/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 101/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 110/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 110/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 126/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 139/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 156/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 156/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 156/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 172/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 188/197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 197 kB    
+Progress (3): 6.9/7.4 MB | 33/80 kB | 197 kB
+Progress (3): 6.9/7.4 MB | 33/80 kB | 197 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.jar (197 kB at 110 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.0/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.1/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.2/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.3/7.4 MB | 33/80 kB
+Progress (2): 7.4/7.4 MB | 33/80 kB
+Progress (2): 7.4/7.4 MB | 33/80 kB
+Progress (2): 7.4/7.4 MB | 33/80 kB
+Progress (2): 7.4/7.4 MB | 33/80 kB
+Progress (2): 7.4 MB | 33/80 kB    
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar (7.4 MB at 4.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+Progress (2): 33/80 kB | 7.7/159 kB
+Progress (2): 33/80 kB | 8.2/159 kB
+Progress (2): 33/80 kB | 25/159 kB 
+Progress (2): 33/80 kB | 41/159 kB
+Progress (2): 33/80 kB | 57/159 kB
+Progress (2): 33/80 kB | 74/159 kB
+Progress (2): 33/80 kB | 90/159 kB
+Progress (2): 33/80 kB | 106/159 kB
+Progress (2): 33/80 kB | 123/159 kB
+Progress (2): 33/80 kB | 139/159 kB
+Progress (2): 33/80 kB | 156/159 kB
+Progress (2): 33/80 kB | 159 kB    
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar (159 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+Progress (2): 33/80 kB | 7.7/247 kB
+Progress (2): 33/80 kB | 16/247 kB 
+Progress (2): 33/80 kB | 32/247 kB
+Progress (2): 33/80 kB | 33/247 kB
+Progress (2): 33/80 kB | 49/247 kB
+Progress (2): 33/80 kB | 66/247 kB
+Progress (2): 33/80 kB | 74/247 kB
+Progress (2): 33/80 kB | 90/247 kB
+Progress (2): 33/80 kB | 98/247 kB
+Progress (2): 33/80 kB | 115/247 kB
+Progress (2): 33/80 kB | 131/247 kB
+Progress (2): 33/80 kB | 147/247 kB
+Progress (2): 33/80 kB | 164/247 kB
+Progress (2): 33/80 kB | 180/247 kB
+Progress (2): 33/80 kB | 197/247 kB
+Progress (2): 33/80 kB | 213/247 kB
+Progress (2): 33/80 kB | 229/247 kB
+Progress (2): 33/80 kB | 246/247 kB
+Progress (2): 33/80 kB | 247 kB    
+Progress (3): 33/80 kB | 247 kB | 7.7/62 kB
+Progress (3): 33/80 kB | 247 kB | 8.2/62 kB
+Progress (3): 33/80 kB | 247 kB | 25/62 kB 
+Progress (3): 33/80 kB | 247 kB | 41/62 kB
+Progress (3): 33/80 kB | 247 kB | 57/62 kB
+Progress (3): 33/80 kB | 247 kB | 62 kB   
+                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar (247 kB at 132 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar (62 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar
+Progress (2): 33/80 kB | 7.7/588 kB
+Progress (2): 33/80 kB | 7.7/588 kB
+Progress (2): 33/80 kB | 24/588 kB 
+Progress (2): 33/80 kB | 40/588 kB
+Progress (2): 33/80 kB | 57/588 kB
+Progress (2): 33/80 kB | 73/588 kB
+Progress (2): 33/80 kB | 90/588 kB
+Progress (2): 33/80 kB | 106/588 kB
+Progress (2): 33/80 kB | 122/588 kB
+Progress (2): 33/80 kB | 139/588 kB
+Progress (2): 33/80 kB | 155/588 kB
+Progress (2): 33/80 kB | 172/588 kB
+Progress (2): 33/80 kB | 188/588 kB
+Progress (2): 33/80 kB | 204/588 kB
+Progress (2): 33/80 kB | 221/588 kB
+Progress (2): 33/80 kB | 237/588 kB
+Progress (2): 33/80 kB | 253/588 kB
+Progress (2): 33/80 kB | 270/588 kB
+Progress (2): 33/80 kB | 286/588 kB
+Progress (2): 33/80 kB | 303/588 kB
+Progress (2): 33/80 kB | 319/588 kB
+Progress (2): 33/80 kB | 335/588 kB
+Progress (2): 33/80 kB | 352/588 kB
+Progress (2): 33/80 kB | 368/588 kB
+Progress (2): 33/80 kB | 385/588 kB
+Progress (2): 33/80 kB | 401/588 kB
+Progress (2): 33/80 kB | 417/588 kB
+Progress (2): 33/80 kB | 434/588 kB
+Progress (2): 33/80 kB | 450/588 kB
+Progress (2): 33/80 kB | 466/588 kB
+Progress (2): 33/80 kB | 483/588 kB
+Progress (2): 33/80 kB | 499/588 kB
+Progress (2): 33/80 kB | 516/588 kB
+Progress (2): 33/80 kB | 532/588 kB
+Progress (2): 33/80 kB | 548/588 kB
+Progress (2): 33/80 kB | 565/588 kB
+Progress (2): 33/80 kB | 581/588 kB
+Progress (3): 33/80 kB | 581/588 kB | 7.7/516 kB
+Progress (3): 33/80 kB | 581/588 kB | 8.2/516 kB
+Progress (3): 33/80 kB | 581/588 kB | 25/516 kB 
+Progress (3): 33/80 kB | 581/588 kB | 41/516 kB
+Progress (3): 33/80 kB | 581/588 kB | 57/516 kB
+Progress (3): 33/80 kB | 581/588 kB | 74/516 kB
+Progress (3): 33/80 kB | 588 kB | 74/516 kB    
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar (588 kB at 298 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar
+Progress (2): 33/80 kB | 90/516 kB
+Progress (2): 33/80 kB | 106/516 kB
+Progress (2): 33/80 kB | 123/516 kB
+Progress (2): 33/80 kB | 131/516 kB
+Progress (2): 33/80 kB | 147/516 kB
+Progress (2): 33/80 kB | 164/516 kB
+Progress (2): 33/80 kB | 172/516 kB
+Progress (2): 33/80 kB | 188/516 kB
+Progress (2): 33/80 kB | 197/516 kB
+Progress (2): 33/80 kB | 205/516 kB
+Progress (2): 33/80 kB | 221/516 kB
+Progress (2): 33/80 kB | 238/516 kB
+Progress (2): 33/80 kB | 254/516 kB
+Progress (2): 33/80 kB | 262/516 kB
+Progress (2): 33/80 kB | 270/516 kB
+Progress (2): 33/80 kB | 279/516 kB
+Progress (2): 33/80 kB | 295/516 kB
+Progress (2): 33/80 kB | 311/516 kB
+Progress (2): 33/80 kB | 328/516 kB
+Progress (2): 33/80 kB | 344/516 kB
+Progress (2): 33/80 kB | 360/516 kB
+Progress (2): 33/80 kB | 377/516 kB
+Progress (2): 33/80 kB | 393/516 kB
+Progress (2): 33/80 kB | 410/516 kB
+Progress (2): 33/80 kB | 426/516 kB
+Progress (2): 33/80 kB | 442/516 kB
+Progress (2): 33/80 kB | 459/516 kB
+Progress (2): 33/80 kB | 475/516 kB
+Progress (2): 33/80 kB | 492/516 kB
+Progress (2): 33/80 kB | 508/516 kB
+Progress (2): 33/80 kB | 516 kB    
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.jar (516 kB at 257 kB/s)
+Progress (2): 33/80 kB | 7.7/242 kB
+Progress (2): 33/80 kB | 8.2/242 kB
+Progress (2): 33/80 kB | 25/242 kB 
+Progress (2): 33/80 kB | 33/242 kB
+Progress (2): 33/80 kB | 49/242 kB
+Progress (2): 33/80 kB | 66/242 kB
+Progress (2): 33/80 kB | 82/242 kB
+Progress (2): 33/80 kB | 98/242 kB
+Progress (2): 33/80 kB | 115/242 kB
+Progress (2): 33/80 kB | 123/242 kB
+Progress (2): 33/80 kB | 131/242 kB
+Progress (2): 33/80 kB | 147/242 kB
+Progress (2): 33/80 kB | 164/242 kB
+Progress (2): 33/80 kB | 180/242 kB
+Progress (2): 33/80 kB | 188/242 kB
+Progress (2): 33/80 kB | 197/242 kB
+Progress (2): 33/80 kB | 205/242 kB
+Progress (2): 33/80 kB | 213/242 kB
+Progress (2): 33/80 kB | 229/242 kB
+Progress (2): 33/80 kB | 238/242 kB
+Progress (2): 33/80 kB | 242 kB    
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar (242 kB at 114 kB/s)
+Progress (1): 49/80 kB
+Progress (1): 66/80 kB
+Progress (2): 66/80 kB | 7.2/35 kB
+Progress (2): 66/80 kB | 16/35 kB 
+Progress (2): 74/80 kB | 16/35 kB
+Progress (2): 80 kB | 16/35 kB   
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar (80 kB at 36 kB/s)
+Progress (2): 16/35 kB | 3.2/217 kB
+Progress (2): 16/35 kB | 16/217 kB 
+Progress (2): 16/35 kB | 33/217 kB
+Progress (2): 25/35 kB | 33/217 kB
+Progress (2): 35 kB | 33/217 kB   
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar (35 kB at 13 kB/s)
+Progress (1): 41/217 kB
+Progress (1): 57/217 kB
+Progress (1): 74/217 kB
+Progress (1): 82/217 kB
+Progress (1): 98/217 kB
+Progress (1): 106/217 kB
+Progress (1): 115/217 kB
+Progress (1): 131/217 kB
+Progress (1): 139/217 kB
+Progress (1): 156/217 kB
+Progress (1): 164/217 kB
+Progress (1): 180/217 kB
+Progress (1): 197/217 kB
+Progress (1): 213/217 kB
+Progress (1): 217 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar (217 kB at 50 kB/s)
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ imsapi ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ imsapi ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 214 source files with javac [debug parameters release 17] to target/classes
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[147,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[150,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[153,29] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[58,25] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[61,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[64,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[67,30] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/security/model/Department.java:[41,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[26,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[27,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ imsapi ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ imsapi ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ imsapi ---
 [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.pom
-Progress (1): 839 B
-Progress (1): 3.9 kB
-Progress (1): 4.1 kB
-Progress (1): 5.2 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.pom (5.2 kB at 22 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.6/surefire-providers-3.5.6.pom
-Progress (1): 844 B
-Progress (1): 2.5 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.6/surefire-providers-3.5.6.pom (2.5 kB at 13 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.pom
-Progress (1): 844 B
-Progress (1): 2.8 kB
-Progress (1): 3.1 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.pom (3.1 kB at 13 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.pom
-Progress (1): 957 B
-Progress (1): 3.2 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.pom (3.2 kB at 11 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.pom
-Progress (1): 966 B
-Progress (1): 2.8 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.pom (2.8 kB at 13 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.pom
-Progress (1): 967 B
-Progress (1): 3.0 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.pom (3.0 kB at 9.3 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.jar
-Progress (1): 7.4/35 kB
-Progress (1): 16/35 kB 
-Progress (1): 25/35 kB
-Progress (1): 35 kB   
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.jar (35 kB at 150 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.jar
-Progress (1): 3.2/18 kB
-Progress (1): 18 kB    
-                   
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.jar (18 kB at 88 kB/s)
-Progress (1): 3.2/152 kB
-Progress (1): 20/152 kB 
-Progress (1): 28/152 kB
-Progress (1): 44/152 kB
-Progress (1): 61/152 kB
-Progress (1): 77/152 kB
-Progress (1): 93/152 kB
-Progress (1): 110/152 kB
-Progress (1): 126/152 kB
-Progress (1): 142/152 kB
-Progress (1): 152 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar (152 kB at 589 kB/s)
-Progress (1): 3.2/208 kB
-Progress (1): 11/208 kB 
-Progress (1): 28/208 kB
-Progress (1): 44/208 kB
-Progress (1): 61/208 kB
-Progress (1): 77/208 kB
-Progress (1): 93/208 kB
-Progress (1): 110/208 kB
-Progress (1): 126/208 kB
-Progress (1): 142/208 kB
-Progress (1): 159/208 kB
-Progress (1): 175/208 kB
-Progress (1): 192/208 kB
-Progress (1): 208 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.jar (208 kB at 731 kB/s)
-Progress (1): 7.7/256 kB
-Progress (1): 16/256 kB 
-Progress (1): 25/256 kB
-Progress (1): 41/256 kB
-Progress (1): 57/256 kB
-Progress (1): 74/256 kB
-Progress (1): 90/256 kB
-Progress (1): 106/256 kB
-Progress (1): 123/256 kB
-Progress (1): 139/256 kB
-Progress (1): 147/256 kB
-Progress (1): 164/256 kB
-Progress (1): 172/256 kB
-Progress (1): 188/256 kB
-Progress (1): 205/256 kB
-Progress (1): 221/256 kB
-Progress (1): 238/256 kB
-Progress (1): 254/256 kB
-Progress (1): 256 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar (256 kB at 715 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.3/junit-platform-launcher-6.0.3.pom
-Progress (1): 971 B
-Progress (1): 3.2 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.3/junit-platform-launcher-6.0.3.pom (3.2 kB at 15 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.3/junit-platform-launcher-6.0.3.jar
-Progress (1): 7.4/246 kB
-Progress (1): 16/246 kB 
-Progress (1): 32/246 kB
-Progress (1): 48/246 kB
-Progress (1): 49/246 kB
-Progress (1): 66/246 kB
-Progress (1): 82/246 kB
-Progress (1): 98/246 kB
-Progress (1): 115/246 kB
-Progress (1): 131/246 kB
-Progress (1): 147/246 kB
-Progress (1): 164/246 kB
-Progress (1): 180/246 kB
-Progress (1): 197/246 kB
-Progress (1): 213/246 kB
-Progress (1): 229/246 kB
-Progress (1): 238/246 kB
-Progress (1): 246 kB    
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.3/junit-platform-launcher-6.0.3.jar (246 kB at 1.1 MB/s)
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.ims.imsapi.ImsapiApplicationTests
-17:16:13.291 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:16:14.163 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
-17:16:14.574 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:16:14.586 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
+21:04:54.990 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:04:55.864 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
+21:04:56.225 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:04:56.256 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -177,207 +932,19 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform
 
  :: Spring Boot ::                (v4.1.0)
 
-2026-11-16T17:16:16.399Z  INFO 11627 --- [imsapi] [           main] com.ims.imsapi.ImsapiApplicationTests    : Starting ImsapiApplicationTests using Java 21.0.13.0.3 with PID 11627 (started by jenkins in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi)
-2026-11-16T17:16:16.404Z DEBUG 11627 --- [imsapi] [           main] com.ims.imsapi.ImsapiApplicationTests    : Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-11-16T17:16:16.408Z  INFO 11627 --- [imsapi] [           main] com.ims.imsapi.ImsapiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2026-11-16T17:16:20.576Z  INFO 11627 --- [imsapi] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-11-16T17:16:21.278Z  INFO 11627 --- [imsapi] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 652 ms. Found 34 JPA repository interfaces.
-2026-11-16T17:16:24.145Z  INFO 11627 --- [imsapi] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-11-16T17:16:24.410Z  INFO 11627 --- [imsapi] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-11-16T17:16:26.503Z  INFO 11627 --- [imsapi] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-11-16T17:16:26.636Z  INFO 11627 --- [imsapi] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-11-16T17:16:27.849Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 08001
-2026-11-16T17:16:27.849Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.jdbc.error             : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-2026-11-16T17:16:27.851Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.jdbc                   : HHH100046: Could not obtain connection to query JDBC database metadata
-
-org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:180) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1388) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1468) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1450) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:155) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:600) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:155) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:114) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:242) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125) ~[surefire-api-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.6.jar:3.5.6]
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:425) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.11.jar:42.7.11]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
-	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:149) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	... 128 common frames omitted
-Caused by: java.net.ConnectException: Connection refused (connect failed)
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:351) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
-	at org.postgresql.core.PGStream.createSocket(PGStream.java:271) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.PGStream.<init>(PGStream.java:132) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:219) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365) ~[postgresql-42.7.11.jar:42.7.11]
-	... 142 common frames omitted
-
-2026-11-16T17:16:27.951Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-11-16T17:16:27.992Z  INFO 11627 --- [imsapi] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [undefined/unknown]
-	Database driver: undefined/unknown
-	Database dialect: PostgreSQLDialect
-	Database version: 14.0
-	Default catalog/schema: unknown/unknown
-	Autocommit mode: undefined/unknown
-	Isolation level: NONE [default NONE]
-	JDBC fetch size: undefined/unknown
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-11-16T17:16:36.947Z  INFO 11627 --- [imsapi] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-11-16T17:16:36.974Z  INFO 11627 --- [imsapi] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-11-16T17:16:37.528Z  INFO 11627 --- [imsapi] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-11-16T17:16:50.919Z  INFO 11627 --- [imsapi] [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-11-16T17:16:50.920Z  WARN 11627 --- [imsapi] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-11-16T17:16:51.284Z  WARN 11627 --- [imsapi] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-11-16T17:16:53.508Z DEBUG 11627 --- [imsapi] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2026-11-16T17:16:55.891Z  INFO 11627 --- [imsapi] [           main] com.ims.imsapi.ImsapiApplicationTests    : Started ImsapiApplicationTests in 41.032 seconds (process running for 46.968)
-2026-11-16T17:16:55.933Z  INFO 11627 --- [imsapi] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-11-16T17:16:56.938Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 08001
-2026-11-16T17:16:56.938Z  WARN 11627 --- [imsapi] [           main] org.hibernate.orm.jdbc.error             : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-11-16T21:04:57.936Z  INFO 13420 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : Starting ImsapiApplicationTests using Java 21.0.13.0.3 with PID 13420 (started by jenkins in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi)
+2026-11-16T21:04:57.944Z  INFO 13420 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-11-16T21:05:02.129Z  INFO 13420 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-16T21:05:02.866Z  INFO 13420 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 693 ms. Found 34 JPA repository interfaces.
+2026-11-16T21:05:05.791Z  INFO 13420 --- [           main] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2026-11-16T21:05:05.820Z  INFO 13420 --- [           main] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-11-16T21:05:05.947Z  INFO 13420 --- [           main] org.testcontainers.DockerClientFactory   : Testcontainers version: 2.0.5
+2026-11-16T21:05:07.020Z  INFO 13420 --- [           main] .t.d.DockerMachineClientProviderStrategy : docker-machine executable was not found on PATH ([/usr/local/sbin, /usr/local/bin, /usr/sbin, /usr/bin, /snap/bin])
+2026-11-16T21:05:07.023Z ERROR 13420 --- [           main] o.t.d.DockerClientProviderStrategy       : Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	UnixSocketClientProviderStrategy: failed with exception InvalidConfigurationException (Could not find unix domain socket). Root cause NoSuchFileException (/var/run/docker.sock)
+	DockerDesktopClientProviderStrategy: failed with exception NullPointerException (Cannot invoke "java.nio.file.Path.toString()" because the return value of "org.testcontainers.dockerclient.DockerDesktopClientProviderStrategy.getSocketPath()" is null)As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2026-11-16T21:05:07.048Z  WARN 13420 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
 
 
 
@@ -413,9 +980,6 @@ Positive matches:
    DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
       - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
       - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceAutoConfiguration.PooledDataSourceConfiguration#jdbcConnectionDetails matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.jdbc.autoconfigure.JdbcConnectionDetails; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    DataSourceConfiguration.Hikari matched:
       - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
@@ -653,6 +1217,9 @@ Positive matches:
    TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
       - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   TestcontainersPropertySourceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.test.context.DynamicPropertyRegistry' (OnClassCondition)
+
    TomcatServletWebServerAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'jakarta.servlet.ServletRequest', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol', 'org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory' (OnClassCondition)
       - found 'session' scope (OnWebApplicationCondition)
@@ -730,7 +1297,11 @@ Negative matches:
 
    DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
       Did not match:
-         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+         - EmbeddedDataSource found supported pooled data source (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration#jdbcConnectionDetails:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.jdbc.autoconfigure.JdbcConnectionDetails; SearchStrategy: all) found beans of type 'org.springframework.boot.jdbc.autoconfigure.JdbcConnectionDetails' jdbcContainerConnectionDetailsForPostgresContainer (OnBeanCondition)
 
    DataSourceCheckpointRestoreConfiguration:
       Did not match:
@@ -873,7 +1444,7 @@ Negative matches:
          - AnyNestedCondition 0 matched 2 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.ReactiveWebApplicationCondition did not find reactive web application classes; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication)
       Matched:
          - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
-         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
 
    ReactiveWebSecurityAutoConfiguration:
       Did not match:
@@ -941,6 +1512,10 @@ Negative matches:
       Did not match:
          - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
 
+   TestcontainersPropertySourceAutoConfiguration#dynamicPropertyRegistrarBeanInitializer:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.test.context.support.DynamicPropertyRegistrarBeanInitializer; SearchStrategy: all) found beans of type 'org.springframework.test.context.support.DynamicPropertyRegistrarBeanInitializer' org.springframework.test.context.support.internalDynamicPropertyRegistrarBeanInitializer (OnBeanCondition)
+
    TomcatMetricsAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics' (OnClassCondition)
@@ -983,7 +1558,7 @@ Negative matches:
       Matched:
          - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
          - found 'session' scope (OnWebApplicationCondition)
-         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
 
    WebMvcAutoConfiguration#hiddenHttpMethodFilter:
       Did not match:
@@ -1037,189 +1612,37 @@ Unconditional classes:
 
     org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
 
+    org.springframework.boot.testcontainers.service.connection.ServiceConnectionAutoConfiguration
+
     org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
 
     org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
 
 
 
-2026-11-16T17:16:57.017Z  INFO 11627 --- [imsapi] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-11-16T21:05:07.149Z  INFO 13420 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-11-16T17:16:57.076Z ERROR 11627 --- [imsapi] [           main] o.s.boot.SpringApplication               : Application run failed
+2026-11-16T21:05:07.226Z ERROR 13420 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:457) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:628) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:365) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.0.jar:4.1.0]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.8.jar:7.0.8]
-	at jdk.proxy2/jdk.proxy2.$Proxy201.count(Unknown Source) ~[na:na]
-	at com.ims.imsapi.security.config.DataInitializer.run(DataInitializer.java:27) ~[classes/:na]
-	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.1.0.jar:4.1.0]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:155) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:600) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:155) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:114) ~[spring-boot-test-4.1.0.jar:4.1.0]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:242) ~[spring-test-7.0.8.jar:7.0.8]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70) ~[junit-jupiter-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58) ~[junit-platform-engine-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58) ~[junit-platform-launcher-6.0.3.jar:6.0.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125) ~[surefire-api-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136) ~[surefire-junit-platform-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.6.jar:3.5.6]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.6.jar:3.5.6]
-Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:190) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:87) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:126) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:135) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:411) ~[spring-orm-7.0.8.jar:7.0.8]
-	... 125 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:425) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.11.jar:42.7.11]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
-	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:149) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:62) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:187) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	... 129 common frames omitted
-Caused by: java.net.ConnectException: Connection refused (connect failed)
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:351) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
-	at org.postgresql.core.PGStream.createSocket(PGStream.java:271) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.PGStream.<init>(PGStream.java:132) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:219) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365) ~[postgresql-42.7.11.jar:42.7.11]
-	... 143 common frames omitted
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2026-11-16T17:16:57.144Z  INFO 11627 --- [imsapi] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-11-16T17:16:57.164Z  WARN 11627 --- [imsapi] [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.ims.imsapi.ImsapiApplicationTests@2e078ba0]
+Description:
 
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6299cbbb testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@51e8e6e6, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2cac4385, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@7adf16aa, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@a48401cf], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+Could not find a valid Docker environment for Testcontainers.
+
+Action:
+
+    - Ensure a Docker-compatible container engine is installed and running.
+    - If running Testcontainers in CI, ensure the runner has access to the daemon, typically by using a mounted socket or a Docker-in-Docker setup.
+    - Review the Testcontainers documentation for troubleshooting and advanced configuration options.
+
+
+2026-11-16T21:05:07.286Z  WARN 13420 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.ims.imsapi.ImsapiApplicationTests@2e3900dc]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5503c7d testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [PropertySourceDescriptor[locations=[], ignoreResourceNotFound=false, name=null, propertySourceFactory=null, encoding=null]], propertySourceProperties = ["jwt.secret=your-test-secret-key-at-least-32-chars", "jwt.expiration=86400000", "org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@1a38ba58, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@42deb43a, [ImportsContextCustomizer@59e0d521 key = [com.ims.imsapi.TestcontainersConfiguration]], org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7b02e036, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5fd9b663, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@e362c57, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@536e12b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:195) ~[spring-test-7.0.8.jar:7.0.8]
 	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214) ~[spring-test-7.0.8.jar:7.0.8]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160) ~[spring-test-7.0.8.jar:7.0.8]
@@ -1307,38 +1730,14 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.6.jar:3.5.6]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.6.jar:3.5.6]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.6.jar:3.5.6]
-Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:457) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:628) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:365) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.0.jar:4.1.0]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.8.jar:7.0.8]
-	at jdk.proxy2/jdk.proxy2.$Proxy201.count(Unknown Source) ~[na:na]
-	at com.ims.imsapi.security.config.DataInitializer.run(DataInitializer.java:27) ~[classes/:na]
-	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.8.jar:7.0.8]
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.1.0.jar:4.1.0]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.1.0.jar:4.1.0]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
 	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:155) ~[spring-boot-test-4.1.0.jar:4.1.0]
 	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-7.0.8.jar:7.0.8]
 	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-7.0.8.jar:7.0.8]
@@ -1349,50 +1748,85 @@ Caused by: org.springframework.transaction.CannotCreateTransactionException: Cou
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247) ~[spring-test-7.0.8.jar:7.0.8]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167) ~[spring-test-7.0.8.jar:7.0.8]
 	... 86 common frames omitted
-Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:190) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:87) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:126) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:135) ~[spring-orm-7.0.8.jar:7.0.8]
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:411) ~[spring-orm-7.0.8.jar:7.0.8]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 101 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1232) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 111 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1769) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.8.jar:7.0.8]
 	... 125 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:425) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.11.jar:42.7.11]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
-	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:149) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:62) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:187) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
-	... 129 common frames omitted
-Caused by: java.net.ConnectException: Connection refused (connect failed)
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:351) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
-	at org.postgresql.core.PGStream.createSocket(PGStream.java:271) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.PGStream.<init>(PGStream.java:132) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:219) ~[postgresql-42.7.11.jar:42.7.11]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365) ~[postgresql-42.7.11.jar:42.7.11]
-	... 143 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.boot.testcontainers.service.connection.ServiceConnectionAutoConfigurationRegistrar.lambda$createSource$0(ServiceConnectionAutoConfigurationRegistrar.java:120) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.boot.testcontainers.service.connection.ContainerConnectionDetailsFactory$ContainerConnectionDetails.afterPropertiesSet(ContainerConnectionDetailsFactory.java:187) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 136 common frames omitted
+Caused by: java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.testcontainers.dockerclient.DockerClientProviderStrategy.lambda$getFirstValidStrategy$7(DockerClientProviderStrategy.java:274) ~[testcontainers-2.0.5.jar:2.0.5]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.testcontainers.dockerclient.DockerClientProviderStrategy.getFirstValidStrategy(DockerClientProviderStrategy.java:265) ~[testcontainers-2.0.5.jar:2.0.5]
+	at org.testcontainers.DockerClientFactory.getOrInitializeStrategy(DockerClientFactory.java:154) ~[testcontainers-2.0.5.jar:2.0.5]
+	at org.testcontainers.DockerClientFactory.client(DockerClientFactory.java:196) ~[testcontainers-2.0.5.jar:2.0.5]
+	at org.testcontainers.DockerClientFactory$1.getDockerClient(DockerClientFactory.java:108) ~[testcontainers-2.0.5.jar:2.0.5]
+	at com.github.dockerjava.api.DockerClientDelegate.authConfig(DockerClientDelegate.java:111) ~[docker-java-api-3.7.1.jar:na]
+	at org.testcontainers.containers.GenericContainer.start(GenericContainer.java:316) ~[testcontainers-2.0.5.jar:na]
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup.start(TestcontainersStartup.java:109) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup$1.start(TestcontainersStartup.java:50) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.start(TestcontainersLifecycleBeanPostProcessor.java:127) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.initializeStartables(TestcontainersLifecycleBeanPostProcessor.java:115) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.postProcessAfterInitialization(TestcontainersLifecycleBeanPostProcessor.java:88) ~[spring-boot-testcontainers-4.1.0.jar:4.1.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:442) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 145 common frames omitted
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 44.92 s <<< FAILURE! -- in com.ims.imsapi.ImsapiApplicationTests
-[ERROR] com.ims.imsapi.ImsapiApplicationTests.contextLoads -- Time elapsed: 0.070 s <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6299cbbb testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@51e8e6e6, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2cac4385, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@7adf16aa, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@a48401cf], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.48 s <<< FAILURE! -- in com.ims.imsapi.ImsapiApplicationTests
+[ERROR] com.ims.imsapi.ImsapiApplicationTests.contextLoads -- Time elapsed: 0.073 s <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5503c7d testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [PropertySourceDescriptor[locations=[], ignoreResourceNotFound=false, name=null, propertySourceFactory=null, encoding=null]], propertySourceProperties = ["jwt.secret=your-test-secret-key-at-least-32-chars", "jwt.expiration=86400000", "org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@1a38ba58, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@42deb43a, [ImportsContextCustomizer@59e0d521 key = [com.ims.imsapi.TestcontainersConfiguration]], org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7b02e036, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5fd9b663, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@e362c57, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@536e12b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:195)
 	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160)
@@ -1415,38 +1849,14 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at java.base/java.util.Optional.orElseGet(Optional.java:364)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:457)
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:628)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:365)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
-	at jdk.proxy2/jdk.proxy2.$Proxy201.count(Unknown Source)
-	at com.ims.imsapi.security.config.DataInitializer.run(DataInitializer.java:27)
-	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792)
-	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
-	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
-	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
-	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
 	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:155)
 	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
 	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
@@ -1457,60 +1867,95 @@ Caused by: org.springframework.transaction.CannotCreateTransactionException: Cou
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167)
 	... 21 more
-Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:190)
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:87)
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:126)
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:135)
-	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:411)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
+	... 36 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 46 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
 	... 60 more
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:425)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290)
-	at org.postgresql.Driver.makeConnection(Driver.java:448)
-	at org.postgresql.Driver.connect(Driver.java:298)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
-	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:149)
-	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:62)
-	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquire(LogicalConnectionManagedImpl.java:187)
-	... 64 more
-Caused by: java.net.ConnectException: Connection refused (connect failed)
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:351)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.postgresql.core.PGStream.createSocket(PGStream.java:271)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:132)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:219)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365)
-	... 78 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.testcontainers.service.connection.ServiceConnectionAutoConfigurationRegistrar.lambda$createSource$0(ServiceConnectionAutoConfigurationRegistrar.java:120)
+	at org.springframework.boot.testcontainers.service.connection.ContainerConnectionDetailsFactory$ContainerConnectionDetails.afterPropertiesSet(ContainerConnectionDetailsFactory.java:187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
+	... 71 more
+Caused by: java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
+	at org.testcontainers.dockerclient.DockerClientProviderStrategy.lambda$getFirstValidStrategy$7(DockerClientProviderStrategy.java:274)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.testcontainers.dockerclient.DockerClientProviderStrategy.getFirstValidStrategy(DockerClientProviderStrategy.java:265)
+	at org.testcontainers.DockerClientFactory.getOrInitializeStrategy(DockerClientFactory.java:154)
+	at org.testcontainers.DockerClientFactory.client(DockerClientFactory.java:196)
+	at org.testcontainers.DockerClientFactory$1.getDockerClient(DockerClientFactory.java:108)
+	at com.github.dockerjava.api.DockerClientDelegate.authConfig(DockerClientDelegate.java:111)
+	at org.testcontainers.containers.GenericContainer.start(GenericContainer.java:316)
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup.start(TestcontainersStartup.java:109)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup$1.start(TestcontainersStartup.java:50)
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.start(TestcontainersLifecycleBeanPostProcessor.java:127)
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.initializeStartables(TestcontainersLifecycleBeanPostProcessor.java:115)
+	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.postProcessAfterInitialization(TestcontainersLifecycleBeanPostProcessor.java:88)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:442)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	... 80 more
 
 [INFO] 
 [INFO] Results:
 [INFO] 
 [ERROR] Errors: 
-[ERROR]   ImsapiApplicationTests.contextLoads » IllegalState Failed to load ApplicationContext for [WebMergedContextConfiguration@6299cbbb testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@51e8e6e6, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2cac4385, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@7adf16aa, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@a48401cf], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+[ERROR]   ImsapiApplicationTests.contextLoads » IllegalState Failed to load ApplicationContext for [WebMergedContextConfiguration@5503c7d testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [PropertySourceDescriptor[locations=[], ignoreResourceNotFound=false, name=null, propertySourceFactory=null, encoding=null]], propertySourceProperties = ["jwt.secret=your-test-secret-key-at-least-32-chars", "jwt.expiration=86400000", "org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@1a38ba58, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@42deb43a, [ImportsContextCustomizer@59e0d521 key = [com.ims.imsapi.TestcontainersConfiguration]], org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7b02e036, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5fd9b663, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@e362c57, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@536e12b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 [INFO] 
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  03:26 min
-[INFO] Finished at: 2026-11-16T17:16:57Z
+[INFO] Total time:  02:07 min
+[INFO] Finished at: 2026-11-16T21:05:07Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-test) on project imsapi: 
 [ERROR] 
