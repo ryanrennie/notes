@@ -21,7 +21,13 @@ pipeline {
                 dir('imsapi') {
                     // Grant execution rights to the Maven wrapper script
                     sh 'chmod +x ./mvnw'
-                    sh './mvnw clean package -DskipTests'
+                    // Runs tests (Testcontainers needs Docker on this agent), then packages
+                    sh './mvnw clean package'
+                }
+            }
+            post {
+                always {
+                    junit allowEmptyResults: true, testResults: 'imsapi/target/surefire-reports/*.xml'
                 }
             }
         }
