@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Check Tools') {
+            steps {
+                sh 'docker ps'
+                sh 'node -v && npm -v'
+            }
+        }
+
+        stage('Build & Test Backend (imsapi)') {
+            steps {
+                dir('/var/lib/jenkins/workspace/github-ims-pipeline/imsapi') {
+                    sh 'chmod +x ./mvnw'
+                    sh './mvnw clean package'
+                }
+            }
+            post {
+                always {
+                    junit allowEmptyResults: true,
+                          testResults: '/var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/surefire-reports/*.xml'
+                }
+            }
+        }
+
+        stage('Build Frontend (ui)') {
+            steps {
+                dir('/var/lib/jenkins/workspace/github-ims-pipeline/ui') {
+                    sh 'npm ci'
+                    sh 'npm run build'
+                }
+            }
+        }
+    }
+}
