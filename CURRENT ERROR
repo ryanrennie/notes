@@ -1,110 +1,127 @@
-rg.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309)
-	... 36 more
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 1: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1232)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 46 more
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcContainerConnectionDetailsForPostgresContainer': Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1769)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 60 more
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postgresContainer' defined in class path resource [com/ims/imsapi/TestcontainersConfiguration.class]: Could not find a valid Docker environment. Please see logs and check configuration
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.boot.testcontainers.service.connection.ServiceConnectionAutoConfigurationRegistrar.lambda$createSource$0(ServiceConnectionAutoConfigurationRegistrar.java:120)
-	at org.springframework.boot.testcontainers.service.connection.ContainerConnectionDetailsFactory$ContainerConnectionDetails.afterPropertiesSet(ContainerConnectionDetailsFactory.java:187)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
-	... 71 more
-Caused by: java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
-	at org.testcontainers.dockerclient.DockerClientProviderStrategy.lambda$getFirstValidStrategy$7(DockerClientProviderStrategy.java:274)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at org.testcontainers.dockerclient.DockerClientProviderStrategy.getFirstValidStrategy(DockerClientProviderStrategy.java:265)
-	at org.testcontainers.DockerClientFactory.getOrInitializeStrategy(DockerClientFactory.java:154)
-	at org.testcontainers.DockerClientFactory.client(DockerClientFactory.java:196)
-	at org.testcontainers.DockerClientFactory$1.getDockerClient(DockerClientFactory.java:108)
-	at com.github.dockerjava.api.DockerClientDelegate.authConfig(DockerClientDelegate.java:111)
-	at org.testcontainers.containers.GenericContainer.start(GenericContainer.java:316)
-	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup.start(TestcontainersStartup.java:109)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.testcontainers.lifecycle.TestcontainersStartup$1.start(TestcontainersStartup.java:50)
-	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.start(TestcontainersLifecycleBeanPostProcessor.java:127)
-	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.initializeStartables(TestcontainersLifecycleBeanPostProcessor.java:115)
-	at org.springframework.boot.testcontainers.lifecycle.TestcontainersLifecycleBeanPostProcessor.postProcessAfterInitialization(TestcontainersLifecycleBeanPostProcessor.java:88)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:442)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
-	... 80 more
-
+Started by user admin
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/github-ims-pipeline
+[Pipeline] {
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Checkout)
+[Pipeline] git
+The recommended git tool is: NONE
+using credential github-creds
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/github-ims-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ryanrennie/ims.git # timeout=10
+Fetching upstream changes from https://github.com/ryanrennie/ims.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.53.0'
+using GIT_ASKPASS to set credentials Github credentials
+ > git fetch --tags --force --progress -- https://github.com/ryanrennie/ims.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d3896e7dcd6210cbfa0f72c7b3d6ac3c0517d52b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d3896e7dcd6210cbfa0f72c7b3d6ac3c0517d52b # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main d3896e7dcd6210cbfa0f72c7b3d6ac3c0517d52b # timeout=10
+Commit message: "Spring Boot testtestContainers added"
+ > git rev-list --no-walk d3896e7dcd6210cbfa0f72c7b3d6ac3c0517d52b # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build & Test Backend (imsapi))
+[Pipeline] dir
+Running in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi
+[Pipeline] {
+[Pipeline] sh
++ chmod +x ./mvnw
+[Pipeline] sh
++ ./mvnw clean package -DskipTests
+[INFO] Scanning for projects...
 [INFO] 
-[INFO] Results:
+[INFO] ---------------------------< com.ims:imsapi >---------------------------
+[INFO] Building IMS API 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[ERROR] Errors: 
-[ERROR]   ImsapiApplicationTests.contextLoads » IllegalState Failed to load ApplicationContext for [WebMergedContextConfiguration@1827fc4e testClass = com.ims.imsapi.ImsapiApplicationTests, locations = [], classes = [com.ims.imsapi.ImsapiApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [PropertySourceDescriptor[locations=[], ignoreResourceNotFound=false, name=null, propertySourceFactory=null, encoding=null]], propertySourceProperties = ["jwt.secret=your-test-secret-key-at-least-32-chars", "jwt.expiration=86400000", "org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.webmvc.test.autoconfigure.WebDriverContextCustomizer@1a38ba58, org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@42deb43a, [ImportsContextCustomizer@51141f64 key = [com.ims.imsapi.TestcontainersConfiguration]], org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7b02e036, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5fd9b663, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@e362c57, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@536e12b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+[INFO] --- clean:3.5.0:clean (default-clean) @ imsapi ---
+[INFO] Deleting /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target
 [INFO] 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] --- dependency:3.10.0:properties (default) @ imsapi ---
 [INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ imsapi ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ imsapi ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 214 source files with javac [debug parameters release 17] to target/classes
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[147,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[150,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[153,29] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/security/model/Department.java:[41,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[58,25] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[61,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[64,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[67,30] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[26,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[27,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ imsapi ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ imsapi ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ imsapi ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ imsapi ---
+[INFO] Building jar: /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/imsapi-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:4.1.0:repackage (repackage) @ imsapi ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/imsapi-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/imsapi-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- spring-boot:4.1.0:repackage (default) @ imsapi ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/imsapi-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target/imsapi-0.0.1-SNAPSHOT.jar.original
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  01:33 min
-[INFO] Finished at: 2026-11-16T23:11:01Z
+[INFO] Total time:  01:16 min
+[INFO] Finished at: 2026-11-17T00:07:16Z
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-test) on project imsapi: 
-[ERROR] 
-[ERROR] See /var/lib/jenkins/workspace/github-ims-pipeline@2/imsapi/target/surefire-reports for the individual test results.
-[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 [Pipeline] }
 [Pipeline] // dir
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] stage
 [Pipeline] { (Build & Test Frontend (ui))
-Stage "Build & Test Frontend (ui)" skipped due to earlier failure(s)
+[Pipeline] dir
+Running in /var/lib/jenkins/workspace/github-ims-pipeline/ui
+[Pipeline] {
+[Pipeline] sh
++ npm install
+/var/lib/jenkins/workspace/github-ims-pipeline/ui@tmp/durable-b8cc0aa4/script.sh.copy: 1: npm: not found
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Deploy to Remote Server)
+Stage "Deploy to Remote Server" skipped due to earlier failure(s)
 [Pipeline] getContext
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
 [Pipeline] // node
 [Pipeline] End of Pipeline
-ERROR: script returned exit code 1
+ERROR: script returned exit code 127
 Finished: FAILURE
