@@ -1,119 +1,37 @@
-ipeline] node
-Running on Jenkins in /var/lib/jenkins/workspace/github-ims-pipeline
-[Pipeline] {
-[Pipeline] stage (hide)
-[Pipeline] { (Check Tools)
-[Pipeline] sh
-+ docker ps
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-[Pipeline] sh
-+ node -v
-v20.20.2
-+ npm -v
-10.8.2
-[Pipeline] }
-[Pipeline] // stage
-[Pipeline] stage
-[Pipeline] { (Build & Test Backend (imsapi))
-[Pipeline] dir
-Running in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi
-[Pipeline] {
-[Pipeline] sh
-+ chmod +x ./mvnw
-[Pipeline] sh
-+ ./mvnw clean package
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] ---------------------------< com.ims:imsapi >---------------------------
-[INFO] Building IMS API 0.0.1-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- clean:3.5.0:clean (default-clean) @ imsapi ---
-[INFO] Deleting /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/target
-[INFO] 
-[INFO] --- dependency:3.10.0:properties (default) @ imsapi ---
-[INFO] 
-[INFO] --- resources:3.5.0:resources (default-resources) @ imsapi ---
-[INFO] Copying 1 resource from src/main/resources to target/classes
-[INFO] Copying 1 resource from src/main/resources to target/classes
-[INFO] 
-[INFO] --- compiler:3.15.0:compile (default-compile) @ imsapi ---
-[INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 214 source files with javac [debug parameters release 17] to target/classes
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[26,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/dto/SearchRequestDTO.java:[27,17] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[58,25] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[61,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[64,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Inmate.java:[67,30] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[147,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[150,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/prisonmanagement/entity/Warrant.java:[153,29] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[WARNING] /var/lib/jenkins/workspace/github-ims-pipeline/imsapi/src/main/java/com/ims/imsapi/security/model/Department.java:[41,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
-[INFO] 
-[INFO] --- resources:3.5.0:testResources (default-testResources) @ imsapi ---
-[INFO] Copying 1 resource from src/test/resources to target/test-classes
-[INFO] 
-[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ imsapi ---
-[INFO] Recompiling the module because of changed dependency.
-[INFO] Compiling 2 source files with javac [debug parameters release 17] to target/test-classes
-[INFO] 
-[INFO] --- surefire:3.5.6:test (default-test) @ imsapi ---
-[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
-[INFO] 
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running com.ims.imsapi.ImsapiApplicationTests
-00:36:13.261 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-00:36:14.135 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
-00:36:14.549 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ims.imsapi.ImsapiApplicationTests]: ImsapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-00:36:14.577 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ims.imsapi.ImsapiApplication for test class com.ims.imsapi.ImsapiApplicationTests
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
-
- :: Spring Boot ::                (v4.1.0)
-
-2026-11-17T00:36:16.364Z  INFO 8031 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : Starting ImsapiApplicationTests using Java 21.0.13.0.3 with PID 8031 (started by jenkins in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi)
-2026-11-17T00:36:16.372Z  INFO 8031 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2026-11-17T00:36:20.596Z  INFO 8031 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-11-17T00:36:21.429Z  INFO 8031 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 785 ms. Found 34 JPA repository interfaces.
-2026-11-17T00:36:24.232Z  INFO 8031 --- [           main] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
-2026-11-17T00:36:24.241Z  INFO 8031 --- [           main] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
-2026-11-17T00:36:24.320Z  INFO 8031 --- [           main] org.testcontainers.DockerClientFactory   : Testcontainers version: 2.0.5
-2026-11-17T00:36:25.137Z  INFO 8031 --- [           main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
-2026-11-17T00:36:27.631Z  INFO 8031 --- [           main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
-2026-11-17T00:36:27.637Z  INFO 8031 --- [           main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
-2026-11-17T00:36:27.861Z  INFO 8031 --- [           main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+2026-11-17T00:42:47.976Z  INFO 8799 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : Starting ImsapiApplicationTests using Java 21.0.13.0.3 with PID 8799 (started by jenkins in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi)
+2026-11-17T00:42:47.984Z  INFO 8799 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-11-17T00:42:52.232Z  INFO 8799 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-17T00:42:52.988Z  INFO 8799 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 706 ms. Found 34 JPA repository interfaces.
+2026-11-17T00:42:55.661Z  INFO 8799 --- [           main] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2026-11-17T00:42:55.667Z  INFO 8799 --- [           main] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-11-17T00:42:55.720Z  INFO 8799 --- [           main] org.testcontainers.DockerClientFactory   : Testcontainers version: 2.0.5
+2026-11-17T00:42:56.310Z  INFO 8799 --- [           main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2026-11-17T00:42:58.698Z  INFO 8799 --- [           main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2026-11-17T00:42:58.710Z  INFO 8799 --- [           main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2026-11-17T00:42:58.803Z  INFO 8799 --- [           main] org.testcontainers.DockerClientFactory   : Connected to docker: 
   Server Version: 29.10.0
   API Version: 1.57
   Operating System: Ubuntu 26.04.1 LTS
   Total Memory: 3399 MB
-2026-11-17T00:36:28.218Z  INFO 8031 --- [           main] tc.testcontainers/ryuk:0.14.0            : Creating container for image: testcontainers/ryuk:0.14.0
-2026-11-17T00:36:28.230Z  INFO 8031 --- [           main] o.t.utility.RegistryAuthLocator          : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.14.0, configFile: /var/lib/jenkins/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /var/lib/jenkins/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
-2026-11-17T00:36:29.366Z  INFO 8031 --- [           main] tc.testcontainers/ryuk:0.14.0            : Container testcontainers/ryuk:0.14.0 is starting: d4518e79f6f4cde5f10e35bc48faac17d95b9dfde99701559d81a165486fdf54
-2026-11-17T00:36:31.793Z  INFO 8031 --- [           main] tc.testcontainers/ryuk:0.14.0            : Container testcontainers/ryuk:0.14.0 started in PT3.575062812S
-2026-11-17T00:36:31.829Z  INFO 8031 --- [           main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
-2026-11-17T00:36:31.830Z  INFO 8031 --- [           main] org.testcontainers.DockerClientFactory   : Checking the system...
-2026-11-17T00:36:31.835Z  INFO 8031 --- [           main] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
-2026-11-17T00:36:31.840Z  INFO 8031 --- [           main] tc.postgres:14                           : Creating container for image: postgres:14
-2026-11-17T00:36:32.305Z  INFO 8031 --- [           main] tc.postgres:14                           : Container postgres:14 is starting: c673e8eaa1745760d50b8fcde71868ed1dffd4f06805f96732cca17503496565
-2026-11-17T00:36:38.352Z  INFO 8031 --- [           main] tc.postgres:14                           : Container postgres:14 started in PT6.511249029S
-2026-11-17T00:36:38.357Z  INFO 8031 --- [           main] tc.postgres:14                           : Container is started (JDBC URL: jdbc:postgresql://localhost:32773/test?loggerLevel=OFF)
-2026-11-17T00:36:39.588Z  INFO 8031 --- [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-11-17T00:36:39.806Z  INFO 8031 --- [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-11-17T00:36:42.003Z  INFO 8031 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-11-17T00:36:42.142Z  INFO 8031 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-11-17T00:36:42.957Z  INFO 8031 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30dd23e2
-2026-11-17T00:36:42.960Z  INFO 8031 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-11-17T00:36:43.279Z  INFO 8031 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:32773/test?loggerLevel=OFF]
+2026-11-17T00:42:59.208Z  INFO 8799 --- [           main] tc.testcontainers/ryuk:0.14.0            : Creating container for image: testcontainers/ryuk:0.14.0
+2026-11-17T00:42:59.230Z  INFO 8799 --- [           main] o.t.utility.RegistryAuthLocator          : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.14.0, configFile: /var/lib/jenkins/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /var/lib/jenkins/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
+2026-11-17T00:43:00.132Z  INFO 8799 --- [           main] tc.testcontainers/ryuk:0.14.0            : Container testcontainers/ryuk:0.14.0 is starting: 4574b97cdd24fbdf6bba0d220da2db3d3dbfa8f5ccf4bb2dd6a6e7fafb011bd8
+2026-11-17T00:43:02.100Z  INFO 8799 --- [           main] tc.testcontainers/ryuk:0.14.0            : Container testcontainers/ryuk:0.14.0 started in PT2.891691648S
+2026-11-17T00:43:02.125Z  INFO 8799 --- [           main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2026-11-17T00:43:02.126Z  INFO 8799 --- [           main] org.testcontainers.DockerClientFactory   : Checking the system...
+2026-11-17T00:43:02.128Z  INFO 8799 --- [           main] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2026-11-17T00:43:02.133Z  INFO 8799 --- [           main] tc.postgres:14                           : Creating container for image: postgres:14
+2026-11-17T00:43:02.702Z  INFO 8799 --- [           main] tc.postgres:14                           : Container postgres:14 is starting: f7ff5abc34fabd25ca092835297652f643af63ae19a4c59139607429a20de436
+2026-11-17T00:43:08.149Z  INFO 8799 --- [           main] tc.postgres:14                           : Container postgres:14 started in PT6.015650629S
+2026-11-17T00:43:08.154Z  INFO 8799 --- [           main] tc.postgres:14                           : Container is started (JDBC URL: jdbc:postgresql://localhost:32775/test?loggerLevel=OFF)
+2026-11-17T00:43:09.326Z  INFO 8799 --- [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-17T00:43:09.553Z  INFO 8799 --- [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-11-17T00:43:11.692Z  INFO 8799 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-17T00:43:11.817Z  INFO 8799 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T00:43:12.698Z  INFO 8799 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f4fa465
+2026-11-17T00:43:12.705Z  INFO 8799 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-17T00:43:13.140Z  INFO 8799 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:32775/test?loggerLevel=OFF]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
 	Database version: 14.25
@@ -124,18 +42,18 @@ Running in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-11-17T00:36:53.766Z  INFO 8031 --- [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-11-17T00:36:54.354Z  INFO 8031 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-11-17T00:36:54.868Z  INFO 8031 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-11-17T00:37:09.747Z  INFO 8031 --- [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-11-17T00:37:09.748Z  WARN 8031 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-11-17T00:37:10.128Z  WARN 8031 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-11-17T00:37:15.578Z  INFO 8031 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : Started ImsapiApplicationTests in 60.628 seconds (process running for 67.902)
-2026-11-17T00:37:15.940Z  INFO 8031 --- [           main] c.i.i.security.config.DataInitializer    : Initializing departments...
-2026-11-17T00:37:16.152Z  INFO 8031 --- [           main] c.i.i.security.config.DataInitializer    : ✅ 6 departments initialized
-2026-11-17T00:37:16.168Z  INFO 8031 --- [           main] c.i.i.security.config.DataInitializer    : Creating default admin user...
-2026-11-17T00:37:17.141Z  INFO 8031 --- [           main] c.i.i.security.config.DataInitializer    : ✅ Default admin user created: admin/admin123
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.54 s -- in com.ims.imsapi.ImsapiApplicationTests
+2026-11-17T00:43:22.932Z  INFO 8799 --- [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-17T00:43:23.497Z  INFO 8799 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-17T00:43:24.031Z  INFO 8799 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-17T00:43:37.537Z  INFO 8799 --- [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-11-17T00:43:37.538Z  WARN 8799 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-11-17T00:43:37.886Z  WARN 8799 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-17T00:43:42.640Z  INFO 8799 --- [           main] com.ims.imsapi.ImsapiApplicationTests    : Started ImsapiApplicationTests in 56.019 seconds (process running for 62.474)
+2026-11-17T00:43:42.997Z  INFO 8799 --- [           main] c.i.i.security.config.DataInitializer    : Initializing departments...
+2026-11-17T00:43:43.289Z  INFO 8799 --- [           main] c.i.i.security.config.DataInitializer    : ✅ 6 departments initialized
+2026-11-17T00:43:43.303Z  INFO 8799 --- [           main] c.i.i.security.config.DataInitializer    : Creating default admin user...
+2026-11-17T00:43:44.281Z  INFO 8799 --- [           main] c.i.i.security.config.DataInitializer    : ✅ Default admin user created: admin/admin123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.76 s -- in com.ims.imsapi.ImsapiApplicationTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -157,188 +75,323 @@ Running in /var/lib/jenkins/workspace/github-ims-pipeline/imsapi
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  02:22 min
-[INFO] Finished at: 2026-11-17T00:37:26Z
+[INFO] Total time:  02:16 min
+[INFO] Finished at: 2026-11-17T00:43:51Z
 [INFO] ------------------------------------------------------------------------
 [Pipeline] }
 [Pipeline] // dir
-Post stage
-Error when executing always post condition:
-java.lang.NoSuchMethodError: No such DSL method 'junit' found among steps [archive, bat, catchError, checkout, deleteDir, dir, echo, envVarsForTool, error, fileExists, getContext, git, input, isUnix, library, libraryResource, load, mail, node, parallel, powershell, properties, pwd, pwsh, readFile, readScmFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, tm, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitUntil, warnError, withContext, withCredentials, withEnv, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, basicPasswordComplexity, batchFile, bitbucket, bitbucketServer, booleanParam, branch, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildingTag, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, clock, cloneOption, command, computerRetentionCheckInterval, consoleUrlProvider, contentSecurityPolicy, cps, credentials, cron, crumb, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, diskSpace, diskSpaceMonitor, downstream, dumb, durabilityHint, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, file, fileParam, filePath, fingerprint, fingerprints, firstBuildChangelog, fisheye, frameOptions, freeStyle, freeStyleJob, fromScm, fromSource, git, gitBranchDiscovery, gitHooks, gitLab, gitList, gitSCM, gitSource, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gogs, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, installSource, isRestartedRun, jdk, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, kiln, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, node, nodeProperties, none, nonePasswordComplexity, nonresumable, not, organizationFolder, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, phabricator, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, prism, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, redmine, refSpecs, remoteName, resourceRoot, responseTime, retainOnlyVariables, rhodeCode, run, runParam, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckout, sparseCheckoutPaths, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, text, textParam, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, userIdentity, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, zip] or globals [currentBuild, env, params, pipeline, scm]
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:223)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:189)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
-	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:194)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:187)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:191)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:154)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:124)
-	at WorkflowScript.run(WorkflowScript:21)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(ModelInterpreter.groovy:644)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:292)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(ModelInterpreter.groovy:521)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:280)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:279)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:464)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:278)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:561)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:276)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:354)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:265)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:592)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:263)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:258)
-	at ___cps.transform___(Native Method)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:107)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:118)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:87)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:71)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.dispatch(CollectionLiteralBlock.java:54)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.item(CollectionLiteralBlock.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:71)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:84)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:142)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:48)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:188)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:464)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:372)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:302)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:143)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
-	at jenkins.util.ContextResettingExecutorService.lambda$wrap$0(ContextResettingExecutorService.java:26)
-	at jenkins.security.ImpersonatingExecutorService.lambda$wrap$0(ImpersonatingExecutorService.java:66)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] stage
 [Pipeline] { (Build Frontend (ui))
-Stage "Build Frontend (ui)" skipped due to earlier failure(s)
-[Pipeline] getContext
+[Pipeline] dir
+Running in /var/lib/jenkins/workspace/github-ims-pipeline/ui
+[Pipeline] {
+[Pipeline] sh
++ npm ci
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.11.3
+npm warn Found: @types/react@19.1.9
+npm warn node_modules/@types/react
+npm warn   @types/react@"^19.1.9" from the root project
+npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn   node_modules/chonky
+npm warn
+npm warn Conflicting peer dependency: @types/react@17.0.93
+npm warn node_modules/@types/react
+npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn     node_modules/chonky
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.11.3
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn   node_modules/chonky
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn     node_modules/chonky
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.11.3
+npm warn Found: react-dom@19.1.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"^19.1.1" from the root project
+npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn   node_modules/chonky
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
+npm warn     node_modules/chonky
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: @types/react@19.1.9
+npm warn node_modules/@types/react
+npm warn   @types/react@"^19.1.9" from the root project
+npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: @types/react@17.0.93
+npm warn node_modules/@types/react
+npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@19.1.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"^19.1.1" from the root project
+npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: @types/react@19.1.9
+npm warn node_modules/@types/react
+npm warn   @types/react@"^19.1.9" from the root project
+npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: @types/react@17.0.93
+npm warn node_modules/@types/react
+npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@19.1.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"^19.1.1" from the root project
+npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@19.1.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"^19.1.1" from the root project
+npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @reduxjs/toolkit@1.9.7
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional react@"^16.9.0 || ^17.0.0 || ^18" from @reduxjs/toolkit@1.9.7
+npm warn node_modules/@reduxjs/toolkit
+npm warn   @reduxjs/toolkit@"^1.5.0" from chonky@2.3.2
+npm warn   node_modules/chonky
+npm warn
+npm warn Conflicting peer dependency: react@18.3.1
+npm warn node_modules/react
+npm warn   peerOptional react@"^16.9.0 || ^17.0.0 || ^18" from @reduxjs/toolkit@1.9.7
+npm warn   node_modules/@reduxjs/toolkit
+npm warn     @reduxjs/toolkit@"^1.5.0" from chonky@2.3.2
+npm warn     node_modules/chonky
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-intl@5.25.1
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.3.0 || 17 || 18" from react-intl@5.25.1
+npm warn node_modules/react-intl
+npm warn   react-intl@"^5.13.2" from chonky@2.3.2
+npm warn   node_modules/chonky
+npm warn
+npm warn Conflicting peer dependency: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@"^16.3.0 || 17 || 18" from react-intl@5.25.1
+npm warn   node_modules/react-intl
+npm warn     react-intl@"^5.13.2" from chonky@2.3.2
+npm warn     node_modules/chonky
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-redux@7.2.9
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19.1.1" from the root project
+npm warn   32 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.3 || ^17 || ^18" from react-redux@7.2.9
+npm warn node_modules/react-redux
+npm warn   peerOptional react-redux@"^7.2.1 || ^8.0.2" from @reduxjs/toolkit@1.9.7
+npm warn   node_modules/@reduxjs/toolkit
+npm warn   1 more (chonky)
+npm warn
+npm warn Conflicting peer dependency: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@"^16.8.3 || ^17 || ^18" from react-redux@7.2.9
+npm warn   node_modules/react-redux
+npm warn     peerOptional react-redux@"^7.2.1 || ^8.0.2" from @reduxjs/toolkit@1.9.7
+npm warn     node_modules/@reduxjs/toolkit
+npm warn     1 more (chonky)
+npm error code EUSAGE
+npm error
+npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+npm error
+npm error Invalid: lock file's sass-loader@12.6.0 does not satisfy sass-loader@13.3.3
+npm error Missing: sass-loader@12.6.0 from lock file
+npm error
+npm error Clean install a project
+npm error
+npm error Usage:
+npm error npm ci
+npm error
+npm error Options:
+npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+npm error [--no-bin-links] [--no-fund] [--dry-run]
+npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+npm error
+npm error aliases: clean-install, ic, install-clean, isntall-clean
+npm error
+npm error Run "npm help ci" for more info
+npm error A complete log of this run can be found in: /var/lib/jenkins/.npm/_logs/2026-11-17T00_43_52_687Z-debug-0.log
+[Pipeline] }
+[Pipeline] // dir
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] }
 [Pipeline] // node
 [Pipeline] End of Pipeline
-Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 546950bd-422f-4fc7-86bb-6c065d20e9f0
-java.lang.NoSuchMethodError: No such DSL method 'junit' found among steps [archive, bat, catchError, checkout, deleteDir, dir, echo, envVarsForTool, error, fileExists, getContext, git, input, isUnix, library, libraryResource, load, mail, node, parallel, powershell, properties, pwd, pwsh, readFile, readScmFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, tm, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitUntil, warnError, withContext, withCredentials, withEnv, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, basicPasswordComplexity, batchFile, bitbucket, bitbucketServer, booleanParam, branch, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildingTag, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, clock, cloneOption, command, computerRetentionCheckInterval, consoleUrlProvider, contentSecurityPolicy, cps, credentials, cron, crumb, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, diskSpace, diskSpaceMonitor, downstream, dumb, durabilityHint, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, file, fileParam, filePath, fingerprint, fingerprints, firstBuildChangelog, fisheye, frameOptions, freeStyle, freeStyleJob, fromScm, fromSource, git, gitBranchDiscovery, gitHooks, gitLab, gitList, gitSCM, gitSource, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gogs, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, installSource, isRestartedRun, jdk, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, kiln, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, node, nodeProperties, none, nonePasswordComplexity, nonresumable, not, organizationFolder, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, phabricator, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, prism, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, redmine, refSpecs, remoteName, resourceRoot, responseTime, retainOnlyVariables, rhodeCode, run, runParam, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckout, sparseCheckoutPaths, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, text, textParam, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, userIdentity, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, zip] or globals [currentBuild, env, params, pipeline, scm]
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:223)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:189)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
-	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:194)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:187)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:191)
-	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:154)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:124)
-	at WorkflowScript.run(WorkflowScript:21)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(ModelInterpreter.groovy:644)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:292)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(ModelInterpreter.groovy:521)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:280)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:279)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:464)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:278)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:561)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:276)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:354)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:265)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:592)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:263)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:258)
-	at ___cps.transform___(Native Method)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:107)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:118)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:87)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:71)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.dispatch(CollectionLiteralBlock.java:54)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.item(CollectionLiteralBlock.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:71)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:84)
-	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:142)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:48)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:188)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:464)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:372)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:302)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:143)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
-	at jenkins.util.ContextResettingExecutorService.lambda$wrap$0(ContextResettingExecutorService.java:26)
-	at jenkins.security.ImpersonatingExecutorService.lambda$wrap$0(ImpersonatingExecutorService.java:66)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
-	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
+ERROR: script returned exit code 1
 Finished: FAILURE
