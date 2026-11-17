@@ -1,179 +1,4 @@
-Running in /var/lib/jenkins/workspace/github-ims-pipeline/ui
-[Pipeline] {
-[Pipeline] sh
-+ npm install
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/core@4.11.3
-npm warn Found: @types/react@19.1.9
-npm warn node_modules/@types/react
-npm warn   @types/react@"^19.1.9" from the root project
-npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn node_modules/@material-ui/core
-npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn   node_modules/chonky
-npm warn
-npm warn Conflicting peer dependency: @types/react@17.0.93
-npm warn node_modules/@types/react
-npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn     node_modules/chonky
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/core@4.11.3
-npm warn Found: react@19.1.1
-npm warn node_modules/react
-npm warn   react@"^19.1.1" from the root project
-npm warn   32 more (@emotion/react, @emotion/styled, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn node_modules/@material-ui/core
-npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn   node_modules/chonky
-npm warn
-npm warn Conflicting peer dependency: react@17.0.2
-npm warn node_modules/react
-npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn     node_modules/chonky
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/core@4.11.3
-npm warn Found: react-dom@19.1.1
-npm warn node_modules/react-dom
-npm warn   react-dom@"^19.1.1" from the root project
-npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn node_modules/@material-ui/core
-npm warn   @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn   node_modules/chonky
-npm warn
-npm warn Conflicting peer dependency: react-dom@17.0.2
-npm warn node_modules/react-dom
-npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn     @material-ui/core@"4.11.3" from chonky@2.3.2
-npm warn     node_modules/chonky
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/styles@4.11.5
-npm warn Found: @types/react@19.1.9
-npm warn node_modules/@types/react
-npm warn   @types/react@"^19.1.9" from the root project
-npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn node_modules/@material-ui/styles
-npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: @types/react@17.0.93
-npm warn node_modules/@types/react
-npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn   node_modules/@material-ui/styles
-npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/styles@4.11.5
-npm warn Found: react@19.1.1
-npm warn node_modules/react
-npm warn   react@"^19.1.1" from the root project
-npm warn   32 more (@emotion/react, @emotion/styled, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn node_modules/@material-ui/styles
-npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: react@17.0.2
-npm warn node_modules/react
-npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn   node_modules/@material-ui/styles
-npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/styles@4.11.5
-npm warn Found: react-dom@19.1.1
-npm warn node_modules/react-dom
-npm warn   react-dom@"^19.1.1" from the root project
-npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn node_modules/@material-ui/styles
-npm warn   @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: react-dom@17.0.2
-npm warn node_modules/react-dom
-npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
-npm warn   node_modules/@material-ui/styles
-npm warn     @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/system@4.12.2
-npm warn Found: @types/react@19.1.9
-npm warn node_modules/@types/react
-npm warn   @types/react@"^19.1.9" from the root project
-npm warn   16 more (@material-ui/types, @mui/icons-material, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn node_modules/@material-ui/system
-npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: @types/react@17.0.93
-npm warn node_modules/@types/react
-npm warn   peerOptional @types/react@"^16.8.6 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn   node_modules/@material-ui/system
-npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/system@4.12.2
-npm warn Found: react@19.1.1
-npm warn node_modules/react
-npm warn   react@"^19.1.1" from the root project
-npm warn   32 more (@emotion/react, @emotion/styled, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn node_modules/@material-ui/system
-npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: react@17.0.2
-npm warn node_modules/react
-npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn   node_modules/@material-ui/system
-npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: @material-ui/system@4.12.2
-npm warn Found: react-dom@19.1.1
-npm warn node_modules/react-dom
-npm warn   react-dom@"^19.1.1" from the root project
-npm warn   10 more (@mui/material, framer-motion, react-dnd, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn node_modules/@material-ui/system
-npm warn   @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn   node_modules/@material-ui/core
-npm warn
-npm warn Conflicting peer dependency: react-dom@17.0.2
-npm warn node_modules/react-dom
-npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
-npm warn   node_modules/@material-ui/system
-npm warn     @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
-npm warn     node_modules/@material-ui/core
-npm warn ERESOLVE overriding peer dependency
+pm warn ERESOLVE overriding peer dependency
 npm warn While resolving: @material-ui/utils@4.11.3
 npm warn Found: react@19.1.1
 npm warn node_modules/react
@@ -275,7 +100,7 @@ npm warn     peerOptional react-redux@"^7.2.1 || ^8.0.2" from @reduxjs/toolkit@1
 npm warn     node_modules/@reduxjs/toolkit
 npm warn     1 more (chonky)
 
-added 2 packages, and audited 1611 packages in 48s
+up to date, audited 1611 packages in 51s
 
 300 packages are looking for funding
   run `npm fund` for details
@@ -385,8 +210,11 @@ Find out more about deployment here:
 [Pipeline] stage
 [Pipeline] { (Deploy to Remote Server)
 [Pipeline] sh
-+ ssh -o StrictHostKeyChecking=no ubuntu@192.168.1.50 mkdir -p /opt/ims
-ssh: connect to host 192.168.1.50 port 22: Connection timed out
++ ssh -o StrictHostKeyChecking=no imsadmin@192.168.10.22 mkdir -p /opt/ims
+Warning: Permanently added '192.168.10.22' (ED25519) to the list of known hosts.
+Permission denied, please try again.
+Permission denied, please try again.
+imsadmin@192.168.10.22: Permission denied (publickey,password).
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] }
