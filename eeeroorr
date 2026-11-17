@@ -1,5 +1,19 @@
-+ ssh -o StrictHostKeyChecking=no imsadmin@192.168.10.22 mkdir -p /opt/ims
-mkdir: Permission denied
+ui/src/views/utilities/Typography.jsx
+ui@tmp/
+
+sent 67,122,999 bytes  received 17,475 bytes  19,182,992.57 bytes/sec
+total size is 84,835,346  speedup is 1.26
+[Pipeline] sh
++ ssh -o StrictHostKeyChecking=no imsadmin@192.168.10.22 
+                        cd /opt/ims &&
+                        docker compose up -d --build --remove-orphans &&
+                        docker image prune -f
+                    
+time="2026-11-17T02:54:08Z" level=warning msg="The \"POSTGRES_USER\" variable is not set. Defaulting to a blank string."
+time="2026-11-17T02:54:08Z" level=warning msg="The \"POSTGRES_DB\" variable is not set. Defaulting to a blank string."
+time="2026-11-17T02:54:08Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+time="2026-11-17T02:54:08Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+env file /opt/ims/.env not found: stat /opt/ims/.env: no such file or directory
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] }
