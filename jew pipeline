@@ -1,1 +1,65 @@
+pipeline {
+    agent any
 
+    environment {
+        REMOTE_USER = 'imsadmin'
+        REMOTE_HOST = '192.168.10.22'
+        REMOTE_DIR  = '/opt/ims'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'github-creds',
+                    url: 'https://github.com/ryanrennie/ims.git'
+            }
+        }
+
+        stage('Check Tools') {
+            steps {
+                sh 'docker ps'
+                sh 'node -v && npm -v'
+            }
+        }
+
+        stage('Build & Test Backend (imsapi)') {
+            steps {
+                dir('imsapi') {
+                    sh 'chmod +x ./mvnw'
+                    sh './mvnw clean package'
+                }
+            }
+        }
+
+        stage('Build Frontend (ui)') {
+            steps {
+                dir('ui') {
+                    sh 'npm install'
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Deploy to Remote Server') {
+            steps {
+                sh """
+                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "mkdir -p ${REMOTE_DIR}"
+                    rsync -avz --delete \
+                        --exclude '.git' \
+                        --exclude 'ui/node_modules' \
+                        --exclude '.env' \
+                        ./ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_DIR}/
+                """
+
+                sh """
+                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "
+                        cd ${REMOTE_DIR} &&
+                        docker compose up -d --build --remove-orphans &&
+                        docker image prune -f
+                    "
+                """
+            }
+        }
+    }
+}
