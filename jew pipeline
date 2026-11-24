@@ -2,9 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REMOTE_USER = 'imsadmin'
-        REMOTE_HOST = '192.168.10.22'
-        REMOTE_DIR  = '/opt/ims'
+        DEPLOY_DIR = '/opt/imsapp'
     }
 
     stages {
@@ -41,23 +39,19 @@ pipeline {
             }
         }
 
-        stage('Deploy to Remote Server') {
+        stage('Deploy Locally') {
             steps {
                 sh """
-                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "mkdir -p ${REMOTE_DIR}"
-                    rsync -avz --delete \
+                    mkdir -p ${DEPLOY_DIR}
+                    rsync -av --delete \
                         --exclude '.git' \
                         --exclude 'ui/node_modules' \
                         --exclude '.env' \
-                        ./ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_DIR}/
-                """
-
-                sh """
-                    ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "
-                        cd ${REMOTE_DIR} &&
-                        docker compose up -d --build --remove-orphans &&
-                        docker image prune -f
-                    "
+                        --exclude 'imsapi/.env' \
+                        ./ ${DEPLOY_DIR}/
+                    cd ${DEPLOY_DIR} &&
+                    docker compose up -d --build --remove-orphans &&
+                    docker image prune -f
                 """
             }
         }
