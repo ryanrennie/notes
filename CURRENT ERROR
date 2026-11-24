@@ -1,31 +1,284 @@
-pipeline {
-    agent any
+ui/build/static/js/main.6ccc029a.js.LICENSE.txt
+ui/build/static/js/main.6ccc029a.js.map
+ui/build/static/media/
+ui/build/static/media/imslogo.8fa1dfaaf695cb926814.png
+ui/build/static/media/user.c9c43fa28c19fc03239f.jfif
+ui/public/
+ui/public/favicon.ico
+ui/public/index.html
+ui/public/logo521.png
+ui/public/manifest.json
+ui/public/robots.txt
+ui/public/tablogo.png
+ui/src/
+ui/src/App.css
+ui/src/App.tsx
+ui/src/config.js
+ui/src/index.tsx
+ui/src/react-app-env.d.ts
+ui/src/api/
+ui/src/api/menu.js
+ui/src/assets/
+ui/src/assets/css/
+ui/src/assets/css/forms.css
+ui/src/assets/css/intakeForm.css
+ui/src/assets/images/
+ui/src/assets/images/glow_logo_part_1.png
+ui/src/assets/images/glow_logo_part_2.png
+ui/src/assets/images/imslogo.png
+ui/src/assets/images/inlinelogo.png
+ui/src/assets/images/istockphoto-1204619794-612x612.jpg
+ui/src/assets/images/logo-dark.svg
+ui/src/assets/images/logo.png
+ui/src/assets/images/logo.svg
+ui/src/assets/images/logo_recolored.png
+ui/src/assets/images/navlogosun.png
+ui/src/assets/images/ocean.PNG
+ui/src/assets/images/prison-bg.png
+ui/src/assets/images/tobago-cays-grenadines-tropical-ocean-preview.jpg
+ui/src/assets/images/underwater-view-of-a-deep-blue-ocean.jpg
+ui/src/assets/images/underwater.PNG
+ui/src/assets/images/auth/
+ui/src/assets/images/auth/auth-pattern-dark.svg
+ui/src/assets/images/auth/auth-pattern.svg
+ui/src/assets/images/auth/img-a2-grid-dark.svg
+ui/src/assets/images/auth/img-a2-grid.svg
+ui/src/assets/images/icons/
+ui/src/assets/images/icons/earning.svg
+ui/src/assets/images/icons/google.svg
+ui/src/assets/images/suns/
+ui/src/assets/images/suns/logo_black.png
+ui/src/assets/images/suns/logo_original_colors.png
+ui/src/assets/images/suns/logo_white.png
+ui/src/assets/images/suns/logo_white_book_yellow_sun.png
+ui/src/assets/images/users/
+ui/src/assets/images/users/user-round.svg
+ui/src/assets/images/users/user.jfif
+ui/src/assets/images/users/user.png
+ui/src/assets/scss/
+ui/src/assets/scss/_themes-vars.module.scss
+ui/src/assets/scss/style.scss
+ui/src/components/
+ui/src/components/DialogIcons.tsx
+ui/src/components/common/
+ui/src/components/common/Alert.jsx
+ui/src/components/common/InmateSearch.jsx
+ui/src/components/common/Search.css
+ui/src/components/common/WarrantSelect.jsx
+ui/src/components/forms/
+ui/src/components/forms/AddAddress.jsx
+ui/src/components/forms/AddAlias.jsx
+ui/src/components/forms/AddConvictedWarrant.jsx
+ui/src/components/forms/AddDetentionOrder.jsx
+ui/src/components/forms/AddHCJConvictedWarrant.jsx
+ui/src/components/forms/AddRemandedWarrant.jsx
+ui/src/components/forms/AddTattoo.jsx
+ui/src/components/forms/AddWarrant.jsx
+ui/src/components/forms/Affiliation.jsx
+ui/src/components/forms/Appeal.jsx
+ui/src/components/forms/AppealAbandon.jsx
+ui/src/components/forms/AppealWithdraw.jsx
+ui/src/components/forms/Bail.jsx
+ui/src/components/forms/ConcurrentOrConsecutiveCharges.jsx
+ui/src/components/forms/DatalistInput.jsx
+ui/src/components/forms/Deaths.jsx
+ui/src/components/forms/Descriptive.jsx
+ui/src/components/forms/DescriptiveAddressAffiliateMarks.jsx
+ui/src/components/forms/DischargeForm.jsx
+ui/src/components/forms/FormWrapper.jsx
+ui/src/components/forms/IntakeFormConvicted.jsx
+ui/src/components/forms/IntakeFormDetainee.jsx
+ui/src/components/forms/IntakeFormRemanded.jsx
+ui/src/components/forms/LinkId.jsx
+ui/src/components/forms/ReturnFromCourt.jsx
+ui/src/components/forms/Transfer.jsx
+ui/src/components/forms/TransferReturn.jsx
+ui/src/components/forms/WritsAndNotesForm.jsx
+ui/src/contexts/
+ui/src/contexts/AuthContext.tsx
+ui/src/contexts/ConfigContext.jsx
+ui/src/hooks/
+ui/src/hooks/useAuthCheck.js
+ui/src/hooks/useAxios.js
+ui/src/hooks/useConfig.js
+ui/src/hooks/useInmateSearch.js
+ui/src/hooks/useLocalStorage.js
+ui/src/hooks/useWarrantData.js
+ui/src/layout/
+ui/src/layout/NavigationScroll.jsx
+ui/src/layout/MainLayout/
+ui/src/layout/MainLayout/Footer.jsx
+ui/src/layout/MainLayout/MainContentStyled.js
+ui/src/layout/MainLayout/index.jsx
+ui/src/layout/MainLayout/Header/
+ui/src/layout/MainLayout/Header/index.jsx
+ui/src/layout/MainLayout/Header/NotificationSection/
+ui/src/layout/MainLayout/Header/NotificationSection/InfractionUpdatePage.jsx
+ui/src/layout/MainLayout/Header/NotificationSection/NotificationList.jsx
+ui/src/layout/MainLayout/Header/NotificationSection/index.jsx
+ui/src/layout/MainLayout/Header/ProfileSection/
+ui/src/layout/MainLayout/Header/ProfileSection/UpgradePlanCard.jsx
+ui/src/layout/MainLayout/Header/ProfileSection/index.jsx
+ui/src/layout/MainLayout/Header/SearchSection/
+ui/src/layout/MainLayout/Header/SearchSection/index.jsx
+ui/src/layout/MainLayout/LogoSection/
+ui/src/layout/MainLayout/LogoSection/index.jsx
+ui/src/layout/MainLayout/MenuList/
+ui/src/layout/MainLayout/MenuList/index.jsx
+ui/src/layout/MainLayout/MenuList/NavCollapse/
+ui/src/layout/MainLayout/MenuList/NavCollapse/index.jsx
+ui/src/layout/MainLayout/MenuList/NavGroup/
+ui/src/layout/MainLayout/MenuList/NavGroup/index.jsx
+ui/src/layout/MainLayout/MenuList/NavItem/
+ui/src/layout/MainLayout/MenuList/NavItem/index.jsx
+ui/src/layout/MainLayout/Sidebar/
+ui/src/layout/MainLayout/Sidebar/MiniDrawerStyled.jsx
+ui/src/layout/MainLayout/Sidebar/index.jsx
+ui/src/layout/MinimalLayout/
+ui/src/layout/MinimalLayout/index copy.jsx
+ui/src/layout/MinimalLayout/index.jsx
+ui/src/layout/PublicLayout/
+ui/src/layout/PublicLayout/index.jsx
+ui/src/menu-items/
+ui/src/menu-items/filterMenuByApproval.tsx
+ui/src/menu-items/index.js
+ui/src/menu-items/inmateMenu.js
+ui/src/routes/
+ui/src/routes/ErrorFallback.tsx
+ui/src/routes/ProtectedRoute.jsx
+ui/src/routes/Unauthorized.jsx
+ui/src/routes/index.jsx
+ui/src/routes/controlledRoutes/
+ui/src/routes/controlledRoutes/Routes.jsx
+ui/src/scripts/
+ui/src/scripts/seedTestProfiles.ts
+ui/src/services/
+ui/src/services/api.js
+ui/src/services/apiClient.js
+ui/src/services/masterDataService.js
+ui/src/services/menuService.js
+ui/src/services/useLookups.js
+ui/src/services/userService.js
+ui/src/services/warrantService.js
+ui/src/services/api/
+ui/src/services/api/axiosConfig.js
+ui/src/services/auth/
+ui/src/services/auth/authService.js
+ui/src/store/
+ui/src/store/constant.js
+ui/src/themes/
+ui/src/themes/compStyleOverride.jsx
+ui/src/themes/index.jsx
+ui/src/themes/palette.jsx
+ui/src/themes/shadows.jsx
+ui/src/themes/ttpsTheme.ts
+ui/src/themes/typography.jsx
+ui/src/themes/overrides/
+ui/src/themes/overrides/Chip.jsx
+ui/src/themes/overrides/index.js
+ui/src/ui-component/
+ui/src/ui-component/InlineLogo.jsx
+ui/src/ui-component/Loadable.jsx
+ui/src/ui-component/Loader.jsx
+ui/src/ui-component/Logo.jsx
+ui/src/ui-component/cards/
+ui/src/ui-component/cards/CardSecondaryAction.jsx
+ui/src/ui-component/cards/MainCard.tsx
+ui/src/ui-component/cards/SubCard.jsx
+ui/src/ui-component/cards/TotalIncomeDarkCard.jsx
+ui/src/ui-component/cards/TotalIncomeLightCard.jsx
+ui/src/ui-component/cards/Skeleton/
+ui/src/ui-component/cards/Skeleton/EarningCard.jsx
+ui/src/ui-component/cards/Skeleton/PopularCard.jsx
+ui/src/ui-component/cards/Skeleton/TotalGrowthBarChart.jsx
+ui/src/ui-component/cards/Skeleton/TotalIncomeCard.jsx
+ui/src/ui-component/extended/
+ui/src/ui-component/extended/Accordion.jsx
+ui/src/ui-component/extended/AnimateButton.jsx
+ui/src/ui-component/extended/AppBar.jsx
+ui/src/ui-component/extended/Avatar.jsx
+ui/src/ui-component/extended/Breadcrumbs.jsx
+ui/src/ui-component/extended/ImageList.jsx
+ui/src/ui-component/extended/Transitions.jsx
+ui/src/ui-component/extended/Form/
+ui/src/ui-component/extended/Form/FormControl.jsx
+ui/src/ui-component/extended/Form/FormControlSelect.jsx
+ui/src/ui-component/extended/Form/InputLabel.jsx
+ui/src/views/
+ui/src/views/dashboard/
+ui/src/views/dashboard/Default/
+ui/src/views/dashboard/Default/BajajAreaChartCard.jsx
+ui/src/views/dashboard/Default/EarningCard.jsx
+ui/src/views/dashboard/Default/PopularCard.jsx
+ui/src/views/dashboard/Default/PrisonStatCard.jsx
+ui/src/views/dashboard/Default/QuickActions.jsx
+ui/src/views/dashboard/Default/RecentActivity.jsx
+ui/src/views/dashboard/Default/TotalGrowthBarChart.jsx
+ui/src/views/dashboard/Default/TotalOrderLineChartCard.jsx
+ui/src/views/dashboard/Default/WarrantStatusChart.jsx
+ui/src/views/dashboard/Default/index.jsx
+ui/src/views/dashboard/Default/chart-data/
+ui/src/views/dashboard/Default/chart-data/bajaj-area-chart.jsx
+ui/src/views/dashboard/Default/chart-data/total-growth-bar-chart.jsx
+ui/src/views/dashboard/Default/chart-data/total-order-month-line-chart.jsx
+ui/src/views/dashboard/Default/chart-data/total-order-year-line-chart.jsx
+ui/src/views/profile/
+ui/src/views/profile/InmateListDashboard.jsx
+ui/src/views/profile/InmateListDashboardHistory.jsx
+ui/src/views/profile/components/
+ui/src/views/profile/components/AddressSection.jsx
+ui/src/views/profile/components/AliasSection.jsx
+ui/src/views/profile/components/AppealSection.jsx
+ui/src/views/profile/components/BailSection.jsx
+ui/src/views/profile/components/DischargeSection.jsx
+ui/src/views/profile/components/PersonalInfo.jsx
+ui/src/views/profile/components/TransferSection.jsx
+ui/src/views/profile/components/WarrantsSection.jsx
+ui/src/views/profile/id-search/
+ui/src/views/profile/id-search/InmateProfilePreview.jsx
+ui/src/views/profile/id-search/InmateSearch.jsx
+ui/src/views/profile/id-search/MySearchPage.jsx
+ui/src/views/profile/linkid/
+ui/src/views/profile/linkid/LinkList.jsx
+ui/src/views/profile/linkid/LinkRecords.jsx
+ui/src/views/public/
+ui/src/views/public/HomePage.css
+ui/src/views/public/HomePage.tsx
+ui/src/views/reports/
+ui/src/views/reports/AddHCJConvictedWarrant.jsx
+ui/src/views/reports/BailReport.jsx
+ui/src/views/reports/CourtList.jsx
+ui/src/views/reports/EPDFDList.jsx
+ui/src/views/reports/InmatesHistoryProfilePage.jsx
+ui/src/views/reports/InmatesProfilePage.jsx
+ui/src/views/reports/nmateProfileReport.jsx
+ui/src/views/sample-page/
+ui/src/views/sample-page/index.jsx
+ui/src/views/search/
+ui/src/views/search/Search.jsx
+ui/src/views/settings/
+ui/src/views/settings/ChangePassword.jsx
+ui/src/views/utilities/
+ui/src/views/utilities/Color.jsx
+ui/src/views/utilities/Shadow.jsx
+ui/src/views/utilities/Typography.jsx
+ui@tmp/
 
-    stages {
-        stage('Check Tools') {
-            steps {
-                sh 'docker ps'
-                sh 'node -v && npm -v'
-            }
-        }
-
-        stage('Build & Test Backend (imsapi)') {
-            steps {
-                dir('/var/lib/jenkins/workspace/github-ims-pipeline/imsapi') {
-                    sh 'chmod +x ./mvnw'
-                    sh './mvnw clean package'
-                }
-            }
-           
-        }
-
-        stage('Build Frontend (ui)') {
-            steps {
-                dir('/var/lib/jenkins/workspace/github-ims-pipeline/ui') {
-                    sh 'npm install'
-                    sh 'npm run build'
-                }
-            }
-        }
-    }
-}
+sent 84,929,430 bytes  received 17,583 bytes  56,631,342.00 bytes/sec
+total size is 84,835,381  speedup is 1.00
++ cd /opt/imsapp
++ docker compose up -d --build --remove-orphans
+time="2026-11-24T03:57:59Z" level=warning msg="The \"POSTGRES_USER\" variable is not set. Defaulting to a blank string."
+time="2026-11-24T03:57:59Z" level=warning msg="The \"POSTGRES_DB\" variable is not set. Defaulting to a blank string."
+time="2026-11-24T03:57:59Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+time="2026-11-24T03:57:59Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+env file /opt/imsapp/.env not found: stat /opt/imsapp/.env: no such file or directory
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
