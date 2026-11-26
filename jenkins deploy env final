@@ -1,0 +1,24 @@
+stage('Deploy Locally') {
+    steps {
+        sh """
+            mkdir -p "${DEPLOY_DIR}"
+            rsync -av --delete \
+                --exclude '.git' \
+                --exclude '*@tmp' \
+                --exclude 'ui/node_modules' \
+                --exclude '.env' \
+                ./ "${DEPLOY_DIR}/"
+
+            if [ ! -f "${DEPLOY_DIR}/.env" ]; then
+                touch "${DEPLOY_DIR}/.env"
+                [ -f "${DEPLOY_DIR}/imsapi/.env" ] && cat "${DEPLOY_DIR}/imsapi/.env" >> "${DEPLOY_DIR}/.env"
+                [ -f "${DEPLOY_DIR}/ui/.env" ] && echo "" >> "${DEPLOY_DIR}/.env" && cat "${DEPLOY_DIR}/ui/.env" >> "${DEPLOY_DIR}/.env"
+                chmod 600 "${DEPLOY_DIR}/.env"
+            fi
+
+            cd "${DEPLOY_DIR}" &&
+            docker compose up -d --build --remove-orphans &&
+            docker image prune -f
+        """
+    }
+}
