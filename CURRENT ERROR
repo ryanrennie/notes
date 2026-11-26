@@ -1,16 +1,28 @@
-node {
-    stage('Deploy Locally') {
-        sh """
-            mkdir -p /opt/imsapp
-            rsync -av --delete \
-                --exclude '.git' \
-                --exclude '*@tmp' \
-                --exclude 'ui/node_modules' \
-                --exclude '.env' \
-                ./ /opt/imsapp/
-            cd /opt/imsapp &&
-            docker compose up -d --build --remove-orphans &&
-            docker image prune -f
-        """
-    }
-}
+Started by user admin
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/github-ims-pipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Deploy Locally)
+[Pipeline] sh
++ mkdir -p /opt/imsapp
++ rsync -av --delete --exclude .git --exclude *@tmp --exclude ui/node_modules --exclude .env ./ /opt/imsapp/
+sending incremental file list
+
+sent 35,590 bytes  received 167 bytes  23,838.00 bytes/sec
+total size is 84,835,338  speedup is 2,372.55
++ cd /opt/imsapp
++ docker compose up -d --build --remove-orphans
+time="2026-11-26T03:53:51Z" level=warning msg="The \"POSTGRES_USER\" variable is not set. Defaulting to a blank string."
+time="2026-11-26T03:53:51Z" level=warning msg="The \"POSTGRES_DB\" variable is not set. Defaulting to a blank string."
+time="2026-11-26T03:53:51Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+time="2026-11-26T03:53:51Z" level=warning msg="The \"REACT_APP_API_URL\" variable is not set. Defaulting to a blank string."
+env file /opt/imsapp/.env not found: stat /opt/imsapp/.env: no such file or directory
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
