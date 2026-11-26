@@ -1,0 +1,12 @@
+def job = Jenkins.instance.getItemByFullName("github-ims-pipeline")
+
+if (job == null){
+  println "Job not found"
+  return
+    }
+job.builds.each{
+  build-> println"Deleteing n]build #${build.number}"
+  build.delete()
+}
+
+println "Deleted ${job.fulname}"
